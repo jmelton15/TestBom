@@ -36,3 +36,4 @@ def create_directory(directory_path):
 
 run_sbom_creation()
 
+
