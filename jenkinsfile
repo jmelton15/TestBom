@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('version') {
+            steps {
+                sh 'python3 --version'
+            }
+        }
+        stage('RunScript') {
+            steps {
+                echo 'Running SBOM Script....'
+                sh 'python3 sbom_script.py'
+            }
+        }
+    }
+}
