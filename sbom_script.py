@@ -1,7 +1,7 @@
 import subprocess
 import os
 import configparser
-
+import time
 
 config = configparser.ConfigParser();
 config.read('config.ini')
@@ -14,6 +14,7 @@ def create_sbom_from_repo(repoLink,file):
 
 
 def run_sbom_creation():
+    time.sleep(10)
     file_path = config.get("Curl","file_storage_path")
     # Check if the directory already exists
     create_directory(file_path)
