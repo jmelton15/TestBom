@@ -10,7 +10,8 @@ pipeline {
         stage('RunScript_1') {
             steps {
                 echo 'Running cdx server script....'
-                sh 'python python2.py'
+                bat 'cmd.exe'
+                bat 'python python2.py'
             }
         }
         stage('RunScript_2') {

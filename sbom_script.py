@@ -37,3 +37,16 @@ def create_directory(directory_path):
 run_sbom_creation()
 
 
+# def run_test():
+#     cmd1 = f'cdxgen --server'
+#     cmd2 = f'curl -o bom.json http://127.0.0.1:9090/sbom?url=https://github.com/jmelton15/TestJenkinsBom.git'
+#     # cmd1_res = subprocess.call(cmd1,shell=True)
+#     # cmd2_res = subprocess.call(cmd2,shell=True)
+
+#     final_cmd = f'{cmd1} & {cmd2}'
+#     res = subprocess.call(final_cmd,shell=False)
+
+
+
+# run_test()
+
