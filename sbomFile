@@ -7,18 +7,11 @@ pipeline {
                 script {
                     def cmd1 = 'mkdir BOM_FILES'
                     def cmd2 = 'mkdir Repos'
-
                     def process1 = bat(script:cmd1,returnStatus: true)
                     if(process1 == 0) {
                         echo "Created Bom File Folder"
                     } else {
                         echo "Creating Bom File Folder failed with code: ${process1}"
-                    }
-                    def process2 = bat(script:cmd2,returnStatus: true)
-                    if(process2 == 0) {
-                        echo "Created temp repo folder"
-                    } else {
-                        echo "Creating temp repo Folder failed with code: ${process2}"
                     }
                 }
             }
@@ -31,16 +24,14 @@ pipeline {
                     def lines = fileContent.readLines()
 
                     lines.each { line -> 
+                        def makeRepoDir = 'mkdir Repos'
+                        def makeRepoDirProcess = bat(script:makeRepoDir,returnStatus: true)
+
                         def lineParts = line.split('/')
                         def lastEle = lineParts.last()
                         def gitName = lastEle.substring(0,lastEle.length() - 4)
 
-                        def makeDirPath = "Repos\\${gitName}"
-                        def makeDirsCmd = "mkdirs ${makeDirPath}"
-                        def makeDirProcess = bat(script:makeDirsCmd,returnStatus: true)
-
-
-                        def gitCmd = "git -C Repos\\${gitName} clone ${line}"
+                        def gitCmd = "git -C Repos\\ clone ${line}"
                             
                         def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
@@ -49,7 +40,7 @@ pipeline {
 
                             def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                            def cleanUpCmd = "rmdir /s /q Repos\\${gitName}"
+                            def cleanUpCmd = "rmdir /s /q Repos\\"
 
                             def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
                             if(bomCreationProcess == 0) {
