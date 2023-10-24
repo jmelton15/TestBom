@@ -12,13 +12,44 @@ config.read('config.ini')
 def main():
     #this function creates the temporary directories needed for the script and git cloning
     utils.setup_temp_dirs(config)
-    #this function clones repos from the list of repos in the config.ini file
-    clone_multiple_repos()
-    #this function creates all the bom.json files from the cloned repos and names them accordingly
-    run_bom_creation()
-    #this function can be used to remove all the temporarily created directories and files
-    # just_repos (second parameter) is defaulted to True to delete only the cloned repos after the Bom files are created
-    utils.cleanup_files(config,True)
+    # #this function clones repos from the list of repos in the config.ini file
+    # clone_multiple_repos()
+    # #this function creates all the bom.json files from the cloned repos and names them accordingly
+    # create_multiple_bom_files()
+
+    # upload_all_bom_files()
+
+    # #this function can be used to remove all the temporarily created directories and files
+    # # just_repos (second parameter) is defaulted to True to delete only the cloned repos after the Bom files are created
+    # utils.cleanup_files(config,True)
+    run()
+
+
+
+def run():
+    repos = dict(config.items('Repos'))
+    repos_directory = config.get("Temp_Dirs","repos_directory")
+    bom_files = config.get("Temp_Dirs","bom_files_directory")
+    for repo in repos:
+        clone_repo(repos[repo])
+        filename = f'{bom_files}sbom-{repo}.json'
+        #we call this here to ensure that the necessary directories are created
+        # in order to store the newly cloned git repos
+        utils.create_directory(f"{repos_directory}{repo}")
+
+        create_bom_file(filename)
+        utils.custom_rmtree(f"{repos_directory}{repo}")
+         
+
+
+def clone_repo(repoLink):
+    cmd = f'git clone {repoLink}'
+    cmd_res = subprocess.call(cmd,shell=True)
+
+def create_bom_file(filename):
+    spec_version = config.get("CDXGEN","spec_version")
+    cmd = f'cdxgen -o {os.getcwd()}/{filename} --spec-version {spec_version}'
+    cmd_res = subprocess.call(cmd,shell=True)
 
 
 ###
@@ -27,7 +58,7 @@ def main():
 # Param 1: repoLink (string) => link to the git repo
 # Param 2: savePath (string) => path where you'd like to save the repo to when cloned
 ###
-def clone_repo(repoLink, savePath):
+def clone_repo_withpath(repoLink, savePath):
     cmd = f'git -C {savePath} clone {repoLink}'
     cmd_res = subprocess.call(cmd,shell=True)
 
@@ -63,7 +94,7 @@ def create_bom_from_dir(dirPath,fileToCreate):
 # This function loops over a list of directories in the config.ini file and creates many bom.json
 # files using the create_bom_from_dir() function above
 ###
-def run_bom_creation():
+def create_multiple_bom_files():
     file_path = config.get("Temp_Dirs","bom_files_directory")
     repos_directory = config.get("Temp_Dirs","repos_directory")
     try:
@@ -80,6 +111,18 @@ def run_bom_creation():
     # for repo in dirs:
     #     file = f'
     #     create_bom_from_dir(dirs[repo],file)
+
+
+def upload_all_bom_files():
+    bom_files = config.get("Temp_Dirs","bom_files_directory")
+    try:
+        for root, dirs, files in os.walk(bom_files, topdown=False):
+            for name in files:
+                print(name)
+    except FileNotFoundError:
+        print(f'Directory {bom_files} not found')
+    except Exception as e:
+        print(f"Error traversing directory {bom_files}: {e}")
 
 
 

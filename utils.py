@@ -30,6 +30,7 @@ def custom_rmtree(starting_dir):
             os.rmdir(os.path.join(root, name))
     os.rmdir(starting_dir)      
 
+
 def cleanup_files(config,just_repos):
     if just_repos:
         directory = config.get("Temp_Dirs","repos_directory")

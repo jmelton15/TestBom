@@ -1,0 +1,5238 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:78ddb379-ad4e-4e1d-a516-4a0eddba3ae9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-24T15:19:19.084Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "9.8.10"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "com.testmodule1",
+      "name": "TestModule1",
+      "version": "0.0.1-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/com.testmodule1/TestModule1@0.0.1-SNAPSHOT?type=pom",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.testmodule1/TestModule1@0.0.1-SNAPSHOT?type=pom",
+      "components": []
+    }
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "jquery",
+      "version": "3.5.1",
+      "licenses": [],
+      "purl": "pkg:npm/jquery@3.5.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery@3.5.1",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\jmelton\\Desktop\\TestBom\\Repos\\repo_two\\TestJenkinsBom\\test-output\\jquery.min.js"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "name": "jquery",
+      "version": "3.6.0",
+      "licenses": [],
+      "purl": "pkg:npm/jquery@3.6.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/jquery@3.6.0",
+      "properties": [
+        {
+          "name": "SrcFile",
+          "value": "C:\\Users\\jmelton\\Desktop\\TestBom\\Repos\\repo_two\\TestJenkinsBom\\test-output\\jquery-3.6.0.min.js"
+        }
+      ]
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.flink",
+      "name": "flink-python",
+      "version": "1.17.1",
+      "description": "The Apache Software Foundation provides support for the Apache community of open-source software projects. The Apache projects are characterized by a collaborative, consensus based development process, an open and pragmatic software license, and a desire to create high quality software that leads the way in its field. We consider ourselves not simply a group of projects sharing a server, but rather a community of developers and users.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "163968d8b7d8a5493c6aade2cb63187b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "43dd1aba45ca9f24f0ab8a9bed6b3cf8df7cc81e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dc0bb348aca60e74be7a87122cff1a3da3297fce0f142276af0038302842447e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "a4e91ccf3482b77319d68ecd55c951dbf2218d3ca2351e2ff49a1f6ab22ba4597a9872e0d57bfa304dc4d72a6ce9f1536c83e9b7a2dae9c06ddea4d79494c07f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3a2394156ce9fd1c8edb5eeebc6e05a870c5b696f843368a9da2ffd4de149b7410bf7d1654d5fcf26878623d0c594aa5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f950a1f5df35564c5199d3739c4c8a810228f64b2ea902462c3b7afd875b485a726e9dd2402945786b9c747f714ea1c1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7b594f193c71aa21355d0229eb41dd670112988cb5c1bd3d0f74082b1b79ffc8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2b5a28b15e8281500c241573f89d407bf415570bfb3a3a76abb9e77407a23f4fbf07b1c46779b53f96ffb70501b80df9cd9a77c70e81a75c4a4b8f7f6057d7d7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.flink/flink-python@1.17.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.flink/flink-python@1.17.1?type=jar"
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "1.3.9",
+      "description": "JSR305 Annotations for Findbugs",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1d5a772e400b04bb67a7ef4a0e0996d8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "905721a0eea90a81534abb7ee6ef4ea2e5e645fa1def0a5cd88402df1b46c9ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "06da282cfd8e30d9f8cf17702b8709172b00e22b75a627a1d85f8989615b8a1a401bc25d9aee7b14aed1d9b5df73bf2ea8d66f9c8468d9577c29f0ccfa2cc70a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "56e6b41ef62eb5edfed0203802cefae9c2df86388148e420bb0c687abb2b80e14d5c2a82d5b35dce4badaf148f94eada"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "58c3bf89fa1afa75c2c5078159fd28e27b2273d437f26aaaa7391310b6f0823f3cf476a24f5631c0881f3f7e946d99be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c333ea5faedfa78e0614a2620438d5724eab093df4e960918391b6a44c2915b0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "67ec31448e156cc72dd036060b460bb2667a13b1cbe500b6b7eed3235b1994b44c39f440ebd07b21ec9595b166ad61121d4f6a132b5b313c558ab21b72599425"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-java",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b8213333656f5ba2ed94acde3ed6991"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "18cef0adbc08d152da07b234a04f6e8240ce215f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "42b87c6e78d7261426405610c8286a58a58006dc191781e3930aca8e66cbdee8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bfe798850ff972cd8296b2a222bbfdcef98b846e85b2a9cca96a37014539d987044a93daa875f1be438fa824a6a3107cdac6f7d5f7172732697e74e483a22873"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "31e8f7f3c7c5240378fc9d76cdd6a4c976e6ed807d7cd15fda8fa0c74bf06ff85307aeced0ad7ddac156be839369212d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "92df4fa7ab1ae20774587b4c8adb926b1b0eb29f99bfcdc78f6568a3e845fc2db3704d1ca5c9ac9d683540fcc295ae30"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "54c96cca8e5174fc7beec95d955594f50bfa7721856d38914003f2c75b0e80db"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "94c52b6ec7848c99a233bfc3334b93677b914d1559a37ae59b1b3543d585fad4cf1727d4fc945c91fbd3cc147bc9ea9cb1fc043afcb8a72ac2971b76c3e22d3a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-java@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-api",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2a7363f629252974652ee97549cc4350"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d0471521e3618fad0afa585103ba9f07c899b3ca"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6650455546f623ded1fa89f8fb3385dcafc23f5e6440ecbf110db8507dd97490"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fd0a03cd0277a208383434e603ca8efa6cbbaddb1e20f51fb55477c3f99a798f5cdc459db404ff8dbc36cae19548a3f8eab0483e894952257c3c06ccfd31da92"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "945cdf460f831f14b10b94cf7bd2768d14690f0bc5a24bb5f8b5d3595e62d32989894d158544c9349c21fb38de3de417"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "887083274908f7b02bee893b147018dd3e3e38f17218405776e142a32ca07a60fc4ef1f8efd1fc03f46475bfd7e73741"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ee52f83e9638fdc2e18cdbc0c929748caae95b02bc0aaa2f64db7be07f0bee07"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "01ced5ae9b019000c3d454fd6af9b1bc39ab149d4fbfac72d95787d004af5b7e8b54e307c65ec381bece5997eafe252c8e59171515d672f1cb56caabf5858927"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-chrome-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b14cd551c6b40bc9d890d108a4d2aebd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "490603c4c79f938ffaf30058a675d850d9717265"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "45a8d4522ef5fe9e30fb7045b7b8cd5701a2c9b40961d70ec7b4feea8ca1fc55"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f32d564522eace33386b4062a426a4266615d7df5f23cd67d9752be916457a6e7d9518fce55f5ca1a3cce1d1b8de839e49650916d4cce58d38f739fa36cc68ef"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dcb057d78e26929e44d0210a56d3ffaaeaa28de80b60a6002202e0212ba15279de2542764c54415eb9c6dde342ada3ae"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b108006d2799f94d891e04ea5e90ab5b7d6deb399776608c78d5e676eec49f274336a005cc53a68dc4ac1af323b50b85"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dd13109c208e9e5978328080b11384c71ee95d0f19c6ba4102cfacd78e65a24f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a0b3b132b0ce865b08edf1fbeab0f131a319abe87d3334cfee30735c66882ea37f5aa913531d8d727cd70b41dfe4ae783559a5c0458251b5ada538e60bc08f3a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.13.0?type=jar"
+    },
+    {
+      "publisher": "Google LLC",
+      "group": "com.google.auto.service",
+      "name": "auto-service-annotations",
+      "version": "1.1.1",
+      "description": "Provider-configuration files for ServiceLoader.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "418feb19f713c38641702c09b9033436"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da12a15cd058ba90a0ff55357fb521161af4736d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "16a76dd00a2650568447f5d6e3a9e2c809d9a42367d56b45215cfb89731f4d24"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9d49cf94269db62300d5fd78256130787d9fd084f1459d63bbb36cf1a97f0d2be61255ffcc4dc9084cc3798dd6f577d0ff6b71fdae8fcaba254bfe9845edbd7e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "92e740f8e70ab783f2d90bc663e83f6d4d0d619a1fd42e793d2d54932cca52769352e34c4415accf8da668aafc2506b6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "875a9d5d2a43346cb699b4c65033d316164f4981284210738caefda21051fac0f375518f04e717d2fdf18ea8d0b440bd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dad4d2a70d33936220f64189c781a890058b0cb97acd6764ee09224570ca4939"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4f9b88e32ced458942284e03d128b5db2c91013dd91a30720f0e0fcb73dbcab781aa64d61cb7af48fd70cfd9dd3c717a0985be47f7e5ed21bc5588bbe5d5e5ca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "32.1.2-jre",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5fe031b3b35ed56182478811a931d617"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc65dea7cfd9e4dacf8419d8af0e741655857d27885bb35d943d7187fc3a8fce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d683751034688863dc82315a75620abbeeca525cc592d5227b136c29902a0d035f306c6bfaf87d00d95bd1bd967953b00a932286ce09cfba1a0fb35efd852cd4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cdf41f5f70c467f1f0d8ec42d43eebd8e9da7e5fc60bd24d17db852ce0669a7316abb0a217f19c5cca41b20ade17a1f0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2084f7a28971f428e1b07a659d9a2cc221654b0e31d457c1219b5526e102124207ab4b2d163d4d5ec731551da396003b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0ccf9f22abd1ae422fd040e387adb12c31e4dd749c3e40181077e6fb9acdb51b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e354820ed3f5da18411e6f4ba69294b2d171b2debbd51053e617178fa7a7cb64b3a6978c841a3060fd77474cf99e6aa2451aea39a5755cfe1f7eaef0d20d0e63"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "description": "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "091883993ef5bfa91da01dcc8fc52236"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f8d59b808d6ba617252305b66d5590937da9b2b843d492d06b8d0b1b1f397e39f360d5817707797b979a5bf20bf21987b35333e7a15c44ed7401fea2d2119cae"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "67659dbd9647ec303d7f15128dc9dba19b98fd8d74758ee3b602451e32c855e236ccaafe08edf4bbfa245f981268440f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1460875f0331c5fa3791772a6a322a7db180261bc2adacf7271df1fbf3b088a587a755a604c039982cb593c5cfc1f101"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ea86406e75fcd93eafe3cde1b3135ba485f1bb9b75fed98894a0bf1f0aee04f0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "52ac0f487ab5dd27c9f2e54fd1d84c7a620cae9d49be4072aa2b11501787bf4391ddaa13d02eccdf19e8eea46aecbea5f6064b26777c1b836108a280652e04ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+    },
+    {
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "description": "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d094c22570d65e132c19cea5d352e381"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c5987a979174cbacae2e78b319f080420cc71bcdbcf7893745731eeb93c23ed13bff8d4599441f373f3a246023d33df03e882de3015ee932a74a774afdd0782f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "caff9b74079f95832ca7f6029346b34b606051cc8c5a4389fac263511d277ada0c55f28b0d43011055b268c6eb7184d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e939f08df0545847ea0d3e4b04a114b08499ad069ba8ec9461d1779f87a56e0c37273630a0f4c14e78c348d3ac7eb97f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1f0a8b1177773b3a8ace839df5eed63cbf56b24a38714898a6e4ed065c42559f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6b495ecc2a18b17365cb08d124a0da47f04bcdde81927b5245edf3edd8e498c3c3fb92ce6a4127f660bac851bb1d3e4510e5c20d03be47ce99dc296d360db285"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+    },
+    {
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.33.0",
+      "description": "checker-qual contains annotations (type qualifiers) that a programmer writes to specify Java code for type-checking by the Checker Framework.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fc9418b779d9d57dcd52197006cbdb9b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "de2b60b62da487644fc11f734e73c8b0b431238f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e316255bbfcd9fe50d165314b85abb2b33cb2a66a93c491db648e498a82c2de1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "049c446677b7b386f3fb501bf65e032bdf2b1b29a3f545848035fff2b683cd275380cf302e30eea641af7f0801f779bcda3d82a71d928e4176f564f796640a64"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ddf7a0f70421d1ed75e93c0a30434a4862c3905e433223e19861323cf0994e843392b746003040f10a7db6fc960b8aa6"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "edf079834fdd23317851318504b2fcc10b055cdb5cc4ada9c773d1b6c815ed6dd193c433d2b83103f070fd521021ff33"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "56244f45b03fc2a472b35489324e392e6001fac088d19f33629a87adb74a0575"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e0516c11fe613f258bf9ad39358a8d9fb7c8df57ff9aaca5d6d16055c196fac4ed3b4185f2501a3bdf7aeb1fe142693b1d788bdaa73366be1af15762bb3591a4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar"
+    },
+    {
+      "publisher": "Google LLC",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.18.0",
+      "description": "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "64145d0e7fee5a69ed7b84cf402de998"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "89b684257096f548fa39a7df9fdaa409d4d4df91"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3cea86be94bb8ae40d21ad4bf7d7f6b2233e89593b7b741ad84c78840cd3837bb5136f52e62fe9ae0953d7b190c46ad3edc102dfa97b4c7ea472a80206bf5db7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7622eb33f83f03ab32b710b36c2fe836e24c5318f65fb8c0631a99507ca3ae65c2df8e33b63a5ce853b9cab6d9cb32e5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1ea52a5ce2a9ee1a960dc2a1bbe4b009d4d6a4448498e4cd76401605fa877662911e8c93b2b8bfda57bedc56c83f10a0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ed53f4295da75753267f241315352c4a39e60796f04e1c0c12d29c3a38be48ed"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8266b313bd4e1170daf60642e838841370d99bc24b2a1f91825ca22037a6a30ff15cc76069f8e8770f1dc12772c277ee1320de67e815041697d93d6d7ba884fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar"
+    },
+    {
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "2.8",
+      "description": "A set of annotations that provide additional information to the J2ObjC translator to modify the result of translation.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c50af69b704dc91050efb98e0dff66d1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c85270e307e7b822f1086b93689124b89768e273"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f02a95fa1a5e95edb3ed859fd0fb7df709d121a35290eff8b74dce2ab7f4d6ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f8263868a792b41707c9e7fe6fa5650a14cd93fbeafad20efe3772a3058fc933eb59782ec59e6eb9b9c569aa96da80134ae9fdf7547b69c44a97087efddceeff"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e6087ec31fec8289158496ad2ed6ce8472d5d513808a312e0782cedac3b86c37a62a63c0b5ea3839491d109fe9e148a1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "10add34bfeb8612283eef89ac96747a3c9b755acd80ad526e1addaeb7efd6323c52b9bfa1a3d34adb40e1ccb963ee65d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b3336f8abd6b1f73b9f06d306974557000a000073bfbae6b54fda26d17dbb072"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d376c184a6df071c4e93b913d175b5c2e63deac37105dc20342c19bdda62e4e9598ca1e8bfb4f4fd5cdee6dd5ac3b8af49e2c5193e324d59a59ce1f7adeab627"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-chromium-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c9b9d526b59738169e5070a03c0b83ea"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4ff91ea6a6b7157e44490269664419cc1a008f64"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6a05fa4b1978e5350d38e1082103414653125c0f20e850bf7aa914fa5334bb6c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1472d46be20e2497ff97d5d5dfc7bdce560f4955cb41a09179a19359469da1da1d745c222d0525a1b30a73d8abaee78ef3eab8d449fe964c2c50a187b1aa3370"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8850a20e0e882f4cf3fefed9e82b757f31e902a6ca4fd9e3ba5aee1adf1aa1511b616d4298f37ef42524b0a2ed3e79e3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4e86d40e16b799c381f4dbb1a24e212ee79cc17d08bf2776c9290689d861b4589e2d7f1ded34b4ed08b16dd655b6bb63"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1d8fb0d0767ddb582680eb75618e14b4effb485c3947a689afd33896d27660be"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c5438b11fec086a53104517d68de131fe22e3c0de28a49b6182e7a5ba3615c4d1505cb6080e402c43962155aaaa463cc4b9d5409265e5d4215bf7e5a16dcc92f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-json",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "103d32bb54d0c69832ff93a5d7289aee"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ebab8a0a864a9715df77b8c615d8c41709282924"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7bf66eb769eaf2084fe5da5742359fd5d8140b3565566312aac5fd13fd090021"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6dd75362ab9d48cc750c9cdee17005450091a5885342535b1d3a847233e00a510edf890f59265abc6745344c4747e14d21f656f3b55d8aaa9e711868f9ba9e7b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cb0f1e9b74a4811d10ce1cf7270dc908811be5e395aabed36aa333b55c8eaf75a975a24c26e4ab9e5207e21962d63fd1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6b30e61b5e13158a84d89ecb6a79d97332347ba703725c7cbfb4252a080f8b16f553532f52ce1ce50c13f788fe877e96"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0345d8bb757d171bed447084883363e9ea90b02131a125f0db3aeae97ab8cc92"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "cd9048533238df17a113845224d2e7bd3b9c1ddbd3bfa3deedac55d2947c777d0f76da8f1f27d82f97e2fd997cfe53a34954c44e102e156503aa93c27431d9b8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-manager",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7798786e6f97c203bca0a1a1790755aa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d474cc621720e47e9f00ef7f4fec8cc76643d41b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "32fcf3cb10ad5dbb3b346b876f556d4b6e60228a9b88bbb7515e26031cc24139"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3edfb7407de90d3b3a8575d7215ba581032ac2b3d5e66aecefa6111e488ffe41b7d0b049529a61674ef0d491cd58aa9b88fa6b0cbe217173d628d5e8e71927fa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e00794b5a58b402c6482995ff5644155fd0b458770db2f3826ea7fa244b0a528eb23de8adffea355b320908dae946f1f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7543f7e35b70997c7e5756751f3c3f0ae4d9636918aa7e3eb53aca5bd2ef219183bbb70cc5d2012f574226ad46048981"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1b6772c002b147e7f4b36193b5c232284741782208bb9eff03daa73259a796d7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "89ff547e273f2226ba205bc952750d292dd5036d1edf2c142157099485ecfa948cbf6e470439eeb6dbec505665616566b9e7bdbf9c7ee6afc37fdcdb35ff30d2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v115",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7996572a30d28078c73fc0199fef4985"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "76c322f8b51ce2176c1b9aae458e13d18aa51276"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9818eed8f7d953699ffca6fb2fef29e8ce8491ff9a11f5c412c0f9d82b2b2dfa"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7f6f80d4097a6d717e58b5b8b4f112b53b9fb82c7572bad6f0a1a566954e0be2ecb98275d4f0e4df9a2555f4225ac7fe4058ab7ab4c3b3d9a381354967ef389e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "32664f0340c7121c413d1c41221a0c3c1b561384bf38ae910de12a81bbddffe9894cf391c20b1a0e4dd1c2293eeaf4fe"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6611b5bc5c8fd934de0ad8f9fdeea2497adad815814f08d89c70ecdbeca6aa107e49ba1b44c8b89f6c47f833676fc339"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c702f2e570654bc1e403235d62ef18707137daff300868113aa74fddf0f76427"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5c27bfb95807f633cbc1fa794f8e7717b95231bcaa5144420c206295911f87bdf9ddcfd779465f82f7c71443a1e39dcc57afaaa3c3dcf56f72ebcc626e39a170"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v115@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v115@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v116",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6abd6e79aa13aeaafe6605b06aa5e82e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5bb40cd24bcaf9d6015eb6cdf76784506d36c033"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "030e97aec1b3f771f4446bd31dbd931f73129f55dc0a2aa28cd2edaed2e7f20a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4f968bf17a35fa4569a4d7eca4a78484805e5ea91fe9f80aff52990f6a412e19fa22eca03384f99af94ad3af65cc961c800d300b495b4c2aeb4da2c2f93ac4ee"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7255c5e6bf7e179bf2bb50d5f70355ba6e65b0dbe3e96255c3515c88d4e3e48e9fce6f10047d1c7bc63d3bdf81b74a23"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "611309e77cbd85f8990a5280030bd8728f95193470cf97e678bc18e1fac66c7687e4216d15664233a65aad4ecf6ca5a2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1f4fb0efb61602c17e3dfb1139a6bc4cbd2ce6defcaf5765887d6c02f0a6c1cf"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bbf3776f9dd0de94293a3eb3029dd52a9d9db4f321ae6c7a7a473c296787f8bd5898711ac22bcaa4db2a39efcbd89505286cfefefb88ba16106b69b59106e7e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v116@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v116@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v117",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f8766e27900ace513d9e1d72262ab9d1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "86db93ca74312d7795df726d0412cb350c31f15b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "64bb47bce7af5baefda40592edc04e80ca089bd22cf3db2583a4405ea2c1523e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "78a8b3fc6739aea1b514bdfe03cc505120278598965dbba31d5b37bd7cff95f92381a670ae1964894c904e412d5b256bdaad9c8260ab7c14f8e424a026918f9b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "55263c164ff7694456e57dfc9a1ba69b4044d975fcab349b0f37a726279c1af89c91d423780a5a064a7ce75137172168"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6cb114bbb6f6c167baed9b022022fd1c1f55437d97bb06b5d9fe4653aaf5c40f7be64ebc177d5d1226b321aa7f627751"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "37ed9f92c45ff2deea6f60c65c706649086fb6401a6d6e991257131b89bcb1c2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6939ec6d21f63882592e9ddaf96fcc99b3a9f74a8c226a51c311722e3d98928df258574455355be800f46e19ad0c8636123b86bf9237b6c27469293b2e081680"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v117@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v117@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v85",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "909b808c41c144a09c4883052663832e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5469963e082f59946ec627114f7baa2fa5bf81d8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a843df3971962390c5b09ded2972b8489d2707a473fc867c0578c6d5fc3db279"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "fcfb5a241df3c09c016f98881535c8418a69d6f818f06b26f5bd55a2c29d6dd1e1a8c9e9ee095c22ea35b92477e914f1b879196444bed90e117ce6a44aacbef8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6b0d1b6a9e10e772ad8ed6dce4ec14896fdf3e6f835400864631506ffb68c47888ec9bb5e6f91a07df239d565219b8f0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0f6e19f3c97fdb6e2c3f03f4750bdb18edf4750058850fc41f949bdf13b6893da0405e18f4a28abc02116601ba5a8fbc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "188ed0ad1b867aca804430de25b49d705e1be008b6ff081b394096b350c8780e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ab40bfa982382c0b7850644b2756caed1f5efb402b597cad77a54d03cc8dfae7828bb1158ed24894f599e3d8a733c263d43f90485e77187e13c2182c50836992"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-edge-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "02884a3536c4f06e891ae9e0cdefc7c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5f818b6057c9a9abc3b4ac9c1b9d5dd5e478d753"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3d826a9404b5ba31aa02138618287bbe6ac1ed58c1a60d582e79cf12ea9a913e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "571809b11eb55d7bf16320060bfa95d1c4c5ba6ed14f7d99a478e742d9783b593db518b23bb4db631903420ff77e64dfa9801a45392e1b0e2167e45f4069fbf0"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "045eb4f6c477350bb79f74c076bdd8a6643414f85e84e33fe11b9210a3d2f52be25ce3cb208370ea4f207a7223629776"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "939c658d964eada90c086ec16cfc704c30fdd16581e20fb263eecaeab768c8c33842f54bb7bd61362733660863e4a21a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "845c3f3f758cc129f6149c3479b02ecc19f23ea1015e7a3d5c5b82482afaff9a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b14d863d98eea69839dd43858deb5f4fddc14f8bfe5b76c072d9f937e933b93fda93aa0e68e378c3092f9a9f44a2b8f28f1710d18b574db3b6b30a3841f54303"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-firefox-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "41a253f831e7efcb2c4491bebc73adbe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2f2eb0ff81797444908024dd05b36fe287204cfe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c5805f8fe8eb225ea2d1bfe49271dd31aa05bfa3dd0c2d9bcf8d7bfd25c089bb"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "26d06d8beefa1d7930d54e53200a8617aede836baf718ad3d05f166867f268e5c4d8438b3b1a8378f234f90a153a4b0f8e4dd66acdd48d9c86ea3ae31e1fb3cd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ccbf5b411db2fee930b329c72ac1cabe4f2688d38e0955dc5644951bd664e7fdf2ae207302e6ba0096eee3cf230f0312"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7ef619fb1377f2641575519aea6e1e9c6cff6ee0be893b846f42f974331f55ffe5001c8ac13bd2a2f2909ac4cc9f0497"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8a13b1fb425332691bcc7539e1d1603ee0b01ebe97ad533e36e26318a6a28e57"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b01642e7dc57075f86a388230e24e2cd326bb47d13bd6f041b029525583d57bee5f2af2eeb1ad007272d1c236ef7ae0f164cded6bd9a9597d4316654cefcc721"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-http",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3146d897e92903eff1993fc1aebdbfb6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "351d1c150e47cf863027020fef3b9f4f38a6c99c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f15a646906e358f707ec8bac09a7f479c53b1ba0f0b3f33604dceb233240008a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5bfd683caeebca2cb929778cb6abfa23d15bdd77f4b52cef0f711979219322ad45a5adccedfd4b3aa646ecf92b810e623c552ed1ea796025087e714763f87802"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "725e4e0da0b3976bfc0d1447873e03d69e8290a300057e162bec4676b1b8ec8fb15b525d926d7ced1b5eb5a905abe977"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5cacfd7019b975ae2ce2d797e56fdb6901dd54321c675194bbb153c3575bdc3b3765cba094d9133b176e69b391dfc236"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "75347cfaa4beb2b480e59313ae8f935d5d2f3eded916b924c1bde490f9c77990"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9b6aa82ed342f2796e271f85ef09dedc322f45498be71ca978feeb0825d76501f1f741e5bbd4956ab08ad97ca6ce734c2f159dd4887fc1c91f06a921cd4f9018"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-http@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-http@4.13.0?type=jar"
+    },
+    {
+      "group": "dev.failsafe",
+      "name": "failsafe",
+      "version": "3.3.2",
+      "description": "Fault tolerance and resilience patterns",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "484218fc76b81fff7ad7378a77ca6231"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "738a986f1f0e4b6c6a49d351dddc772d1378c5a8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2c5dc879a6dac7ea3a7b29d795e27bd49b8e7908b05c2f3e56053c19d79850f5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "492af86a41d1969a227eca2246d8eada4d2efc3a99cd47ed9999a091ca93692d7ed300d7684b50b823f80857fea34961e4ccddb1df3b570d30e2ab2e76100c49"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "86edff8db2a97826a194441720391b11b981767e527fd60cb200fe84d1fb482c970cad2e5915901dae90ba486111ee13"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0a286c09662eba917706962634a3b7d463d0b28b00990f30d041c6f42f6bb33b1322abfe2448afb3c626769ad7404637"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "304e2c96ed3f58fa10fabf0cdd73bb01670c7afd558db6960196d8e7a44b9b28"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "57bdb0e2897eaf7d38cb3821a686becac3c54c8414ece69a58ba1230f29ef7a7aa1f48af318515bf503ff122f3d6eeb047284611e0e45edacc27399b42b78c3a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/dev.failsafe/failsafe@3.3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/dev.failsafe/failsafe@3.3.2?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-ie-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "aa78d11565c54c3036d1d90a73cecf11"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "67137653d0d2e0c4f6ea735c9e57772ed9f5b3f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8b3584c75f1efbba5bfe1c0265ebfa63da0b5e32af4f847d1a8827900c172219"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "53fd3384e6b53ff44d6f95cd3b400ad0e400339cd3547db704b60b04822207ec1f6d09894d4d36330c7161b3e8e08170373e448a8ea7f29d26cd8596f70ab0b2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "baaa23bb483d235a965efd4a5b3bf3548b248c65775ed06ed1458b2c5123f4fbdd53d7bb68d2212ada35dfb71cceb415"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "559d1dff92221c2cbdb4574dc33b7548c29c4d4a9ca45a4772166b789f7ecf5d8f29b48bc6f49e3d869825d5218dcda0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "060e0c248849101b14a13a195e6a36a99a23c05da91999a1857250d378c7aa0a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "594f1fda9962f0ee70a5dc9051e3cde74ad2b78734b1078924917d2abecf5112584720489b9223cec2c275830939ffa22101e8a3e60ea04782a2957f869a6d48"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-remote-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "bec7ac3fe5253b0b073ec14f9b542a3b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5d9f84d7d51174a54fa507b1418db3b1feddec6a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "831b5ce77ccdeaaf86bd2eaafc16fc4132c36ed705005a42c30a4e30a21fe6ce"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cd83153b729206b27a600c7a5340c13722c26c876d2a60e4c1e44a35f7e86d95f4d8e38cd8897b0ee5052f26f1bd01e934fa6133d952399ccd5dc520cdec9cfe"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "6cedc3135a6ea6510a8948c44cac51dc9a4882edfdb391d681aba9f75095bcc21a1ff177049f517806fe38904850a697"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ac280c60c7d7b8c87925a4001949022941865149c166e9975bd9f903a6b5e2dae4b00b8d333d77c88dccac40bd3f51e5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "963780c87d4838fc7c2eb35d6b067162791ca4a26c4b81f2eb9412144cd28f69"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e62dff9c097ba7a338d10623325c3d44b84871704f4e2356ac5c86a4a4298a32d3c12e10e9b51f58027d0761221ddcedefaa8752ce52f260f07d34517a31c314"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c3f08e639d22f2748a5660498761e92b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4b80fffbe77485b457bf844289bf1801f61b9e91"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1dee6f5b4aa485339d49525ec3689463f724785fc35e7db02f9e46cbdecbe335"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2f6e0d7f1a9237c596b595487ac98c92e50426a18bc78d52e6463cf9f5d6c7872a4c6e32f5e0b55499419e8bdf6f5037be1b5f0e4909b1482abc536fc6fd946f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ad976a4ceb755a6d7f4eae0d2f7337048b52d4e90b53d452ac9037f55a45ddd7c25bb7e0422ec34379f715dd29008fb9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c9d741039b25918751058bfd88e488c116a066fb02b281b599eaee22427b0ef0b6fbe1c251b25d11c664ced8bec8eaf1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1e82490d4c387ee6885b1547e0f06ceaa7d49e1591006b1c12b0f817f133f5d1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "60e34e97b9f15f9974addc1ab6d9a8ad988b51a0b4df6ea4704522f0dbb11bc99aebec7636d89d0674cc0c5b88c9a26a5a7b96222add4c89540b07da00dbe158"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d4fb641a425611aa91e6b7a3e7c83c69"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4d0d95df5026965c454902ef3d6d84b81f89626"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b64808027d7d18c59126ff3a33012c43ac58a0798c1cd1e765f6f71a3fd4ff76"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "12d7c15d379d6d23a6ef61edf0c19ffa404f300c226cff37caaf053e754da2364fbf5f3cc60cdbfee91f828706390e83a45fb4bbaa357d9bb2e5ec95433b831a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2a7323c7f5a073985189b38c22d9393ea50ba0984d53c66304721484cabe27181fa6d0e90f35a3462f5681dd76421bb1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "32b230e794bdca4326bd4f7ab80e8a342237e8bf5951ae8168dae81897d40ae7c209f2e3f9fb7af1efb9dd2df21970a0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d694e12a628504fae4fb4470633ed4a1f7d49b0f2cfa6d17c97af98611a37322"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "fbaf7b94a8ac3cbd6e45882d2ff6d4c1caa57c4ed58f2852dc5370cfdfeddc9ea8ed6bdb80b387d2ae613beb14037bd5117bcb34ede20ebbd7d87d9429344b23"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-http@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec-http@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "175181bab4a6445676792450f124f277"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9cfe430f8b14e7ba86969d8e1126aa0aae4d18f0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "07305d3e565fc01da310f1c8ea7935c08e42ff1977590f2d44fc1305cb470d60"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5ea90573bccd510a45d2af90f6db49a00bfb35674225a0e508f6d0c3111d460fd6e8bc1903fb8fb7d48089ad970a6578e3017b1230ed7231885cf437be6875c7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f4b7c93725813ff72e64b1c870fa696b6cddf2df2e7a13c2278949dd7766ec0246f82a9762e8c5bc07dd74cfafee9012"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "df81ecf550d659fae8303b1f0fba8fdc76b27589ba36ac9e63e84743b56925d763b5c5f6ba6186ff8c790ad39be61120"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e4cd5f2a0ebd33a75e412e65c692eddbfb61949bbafa1a28434b0128a254abb4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1e078302fe4ae8dfbad2be01d4ecceabc953b0070499c7b1a8c64995e46a4bc4b0c3c7df5b6b5d8b9babe87c4b645f1b51c2744c4b5d6f41e37fee5f45c87f0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "44fe86cec3f6f4c8c933a5913ba7db87"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7840d7523d709e02961b647546f9d9dde1699306"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "574ebef95a16053246ab692773d75d8bd7907b709e1083a096fa6ab2a6d6c2b3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ab414f671972e7fe6e08778012f8c73d5c1bec1f6ba7eb658dd6220790c5e4d80d1ef7dcff35a3445fa0fb0418cad3ce0829f1074c20567e2eb8f8312023d153"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "352881b672b26fab8c06406f33c610ff421f3711efd16a50fa404ccb06b2e69871f2d76702e69da9f93a61133444d620"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "190373a7c80987fdf41a9c0f4068a6d72751f6788c6b052de6c127f2ecec922d433a287056fb34c3db9630deffc0b39c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "44545ffd5dfedf35854e30b492dec911141a1f4cd42198c587b6a1a860e8a3c5"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "99a9a2797987a98c90103d26a63a441e7a6440a20ed04c0da03aa089bf9037f216f654d4931faf2cad1d39d0781eb9d251f6196787858a23c3189057fd612a58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f4160d8db7ea478573d81d9ed0d7b131"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d10c167623cbc471753f950846df241d1021655c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "da104e80db830922eaf860eb1c5e957cd1d124068253d02e9c7a7843bc66427a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "88cd84d3bb7e285d572b63dfefd6f41ac99e226317b13e28d15e99f62532ee03f3782e282513dd66fb4fa85a1f1007c4e3a08dbdf6af3701d39c9ee8b6d47854"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "149eadec0b9d14d5ba0f6c07a44ff3a4dcf099357ca14f45d5570b4bf2d5f0ef77ac500b49b5a9fad38229a4ba54563a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d3a7184e55e7b6567504f779a8a1f8d483c8459ff6b1bb29bcdd12a553a0b681664fc2a32d7fb61d1680b884f4e5b8af"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "87936dc6351af4359e1bc8e3d6c36c5425c7935ae802f26ea45a5e3eaa6f2176"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "628113d3a57e4a6f99c4fadc83e93af31ae97fe905ca14361b35b457cf20520e37a70f3b675d1418fb841324a066d1247fd8d643d0b9e6c762e305440fa82f75"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-classes-epoll",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "da2406ec974699953aac1f77b18b8fde"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b0369501645f6e71f89ff7f77b5c5f52510a2e31"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1591b3ea061932677dc2bab6cb7d82e8f1837a52b3c781f4daa99984ec87a9cd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c531b40a3f95c2bbc3cd67e44fa49a1ca29111512efaab26a8d5bf0febee389a272df28127f929525c2d571cccfb8b7958c040a2bafff46a1a3f7898a9a4c6f5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c61fc598cb34d219fd218ae3e205d35a3fb276a0cdf92aad08283daa77dad6494d51a32cf0f1f313ffaa636c9bd9e969"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7b9a4496f6aa068d627a1679a6443dcbd1153a5e1a7289d1d74b3ed38bca116045b4a670dfdecd47a2945ddfba4f6c85"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1dd615238affa0f0941616cf39aa60069a7ec5d484123a3d65d6324e76a2d460"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "64e076eb59558c8acf3bfb5f91562ae373563346ac47dfe333d22971859e6f65fdc1ab4ac166c5e43b5854c8342328eedd375391310bdc1f6b69c7a53613e193"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-classes-kqueue",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ad1b1afb29994560ee3eeddb98308a01"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "782f6bbb8dd5401599d272ea0fb81d1356bdffb2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f2f1fab3b297aee20a3922c79b548c8b4b72bb10b635375434c108ee05f29430"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "50eade39792c628792679d771b38256fcbdd22eec9dc0f68e2b5a4c9c71ba5b7d41364656df01cde1a4be2041a9f7a4d9628cbcf45b7e657b0bf13265576a615"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "a72fba06c47cfc5d06f491395c27131a335995f5b7577b4ccaf7d80ae0a888e068356c47380359ab1393b58ff980188b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "647e86b6a448e69d13193e2900139795618d2b070ef39689d9a9ad53d3575d12a74f84655305fb807aee1292cf6e3891"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4a0bb13bf7d4e67739f5527775a314659389da0c9de984910c76cd0883d7bac1"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5c99542001623a17fd19e8d133e40b56b5cbc0683bf02fb611b0ac283c008e5a982e25d9748b089413616ca18c7f5f494949c2c2a5203d97eaa01ae0db0d843d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.96.Final",
+      "description": "Static library which contains common unix utilities.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b4bdb115c9a29c4e00994df5bdb53294"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "daf8578cade63a01525ee9d70371fa78e6e91094"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4f96297a06a544a4cdb6fe6af8b868640f100fa96969e2196be216bd41adef13"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f135b399578d9a324d97c5a2f6292e8262a5dc4dbe0ccb308281bd56a450ae2e3cdace46bf2669f36239b4e960dccb5a30b1892fae18ceeb43e536315188b53a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fa76a8962313cabf6218b70d4d47c69a18d5c0c308f4b742f1489b03da1bf775a05a24ce3e95bf4b84a0962638452269"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ab11487f076043ef649423db0f5f73d631ca6fac7dd52741aaed48cdbb25e6f8963319ed507a69a09b670ab38a60268d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "045a427d35b0bcf437e179a7518794159b276d9e693141f87cc066a14332151c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3ee9d485e9e8d666f6dc676f24341df93a2034b7144b2694096a27b288a70ebf23da5f6d9bf506cfcde88c44616864554866e6b8c19e056606dde194a3875f31"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "399c3790cee935549188e9278bd776f0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dbd15ca244be28e1a98ed29b9d755edbfa737e02"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8fe3afbe8b094a7b9f1eb27becf1cf017e5572343c1744d2b6040d5f331e84e3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "03b8d37fa8ac0735e63367bad881cc8615a4539aedffae8a43234431353d4a68419e43721bb403a6c43c76277c88d4aced9a2df5bdd132d997e9e3897f194887"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "81dffe7ffd6c4ece4e5abf70f684ae5e814cda658a93cae19d1cd31237d90f8adb27a07cb969daccf1e285d3d5891126"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bbb60b5f031d18b9c1a601777fcf628a7711c7747bb2cec97eac006592f1b7f606dd7a9a11916a5938f8ed8b1bdfd8f5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0a4ff94e7ed871cfdc62848ea9ddf4d47372bc31f8e4d04351b3c231663a9c58"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3f8a576799bb60852cb1d00c66ab01de82ef454134d33b0a3484cec16ae97936f09832ed33e953c50a6590728861b93e7e028a00070a1fef7b65f8eb8b6ac001"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.96.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "405c47ca1ad8320313567febdfe14f6c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0e51db5568a881e0f9b013b35617c597dc32f130"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54951fae449fa343038fc57855abf5822918d52ca5a302a421f327cad9c75cf1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9a112bdfba66e0a409319dc80ebf689584f771b4188d2c8a5f5e436f52fcfe73ae5e2c538211147015c6b51459e0994a96c30bcba8b0947a60f64907c3e59ad4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "456ac8df2d85a674c4c70aa125c27e1786c32b426e5d6000b3681f4a3c9af56b09f6558c15d4157b5629fa2e851715b3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ea947893372b42f9fd3ba8681d945ff9ddccda27bcd0b9302168dc0fb7daaa756b0fca6db6c5b771390adcbdd6a12f09"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "47e61cbbf3f006587e8f5168d6e16d0c1a6f445819075eee175f1b0d9736da3c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "499c8b1ca13d82695c0befa7c0cb5601a0e05f6fa145446b47894067f43f4096f413d722a2d6539d0c1717de1e23af670d02f8b96900cafd8086e51d97ff5365"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-resolver@4.1.96.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-resolver@4.1.96.Final?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-api",
+      "version": "1.28.0",
+      "description": "OpenTelemetry API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8ec6c80f9ea03a4995eb0b3a7474672c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0ebdea4fbe23c3929f1702b176d2cd63ac6288f0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ae011d5db602a1ab5aba49a32d13264323f3f153db9a5efa55705ca060d77a05"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "48b6e0ae2a071f76f95cbdaf63c4b362296ba90f2b3a3da6ab5d59c4522c281e5ec46a18e7d3a0f9abb72904c7fc261f9e521e8c06784157e7e1b98be9f16bb1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f65e362fb210eff5caf941eb45af0a37c5a6aa596e4af3a4e36fe14d277b104089191e5f6c16e1d3bb328df21b3ba572"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1dfcb7719f1e3a02639e948dc975b13b28734dae8d2c79c4e0d491be5b5d4e4bec35b46441b4cbdd16bfba6ff2304543"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c04be034a96358642728fc2b3b220db36299fa4c7d27644ba09fee394aeabb96"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "16bae9315cd064933c434ce724bfe713a586bfa3c5f7c301a92c7b383187e18929e21b5b0e12222ae213d0c0a92dfe26f39e03911644159cb6e7f62a80a30bf3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-context",
+      "version": "1.28.0",
+      "description": "OpenTelemetry Context (Incubator)",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8c12c7743d1cc0335ef4b018bec79f36"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "468c460d80c5a6e0fdddd3c1a83148b316571c22"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7e596726da322f7deac8fb6696dc36a98bda4a1d294eeb1d8b03054166d34d02"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13351c0fc3e0587c8ef1e3729fcececd0b19cc79dedfcf63745a93a6b50d7e0cfc297947dc287c4c2b32fdb23b93bf1deaa5bb883c0f433e2b42dc8405eb2b46"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "54ed96b943bbf53328d70591a0b76975f5634402ac27266e984292f54a816580bc355a6e688130bbb691fbc80d137ad2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5b9d15b8782e478ec7e2108ce5556e26af92a34c3ef6010d04dc66cd341a7d0dfd7580f81fc346043a388b2534428f92"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "42be874c430c6c1140449830a6b5c2be952582325db8ea48db9be17ad5a914d8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "76e0091753271ea0e64852963f30eb6ec082857dd6f28ad0d563e1f88c1c7271525891c454e4c47d6c603a156339ca9fd6c9c48235600a4d90ddb65ae47e5a44"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-context@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-context@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-exporter-logging",
+      "version": "1.28.0",
+      "description": "OpenTelemetry - Logging Exporter",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b1b96b8e65b6e66aacc51b45e54525a6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e6721fd80fe703a9bbaf8fcdf269aa878a2fa963"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "22e7e065cd90410bf98b3d90707a27e5d40e916c979cbba1a93e1471d816fbda"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "13b7c45f887cb36cc280c9444a6711115ea097cd801c11efc37b36f82f83e2c415b3500f5899988ed1a26763970534b3c8a6eaa6a16393122a12b4bf3c18d3b5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2d1594a54333bc864ae7d786ca52982c9c3997776c1d88fd7da6fb9205f9b9226bd999061ee99d69ee45af11769622a7"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3220aaf61fae6d36aef2a7abfc3d5c168eb4188a622b2f6fdae8559df7cf8331f9f0bcf251c26d8030da80b0b41fcfc6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "a41f61b4a5af40707c227e6975044f930edd10312ad59ba248d494e7a98757f8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "2baa457cf41d31dce30630d979f95708f6b8e2abafae1d38278956a68142df7e619d12b72e8eb290b4324cf1a271ce30f01ccf8f8984dcd862039e264d044f6d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-metrics",
+      "version": "1.28.0",
+      "description": "OpenTelemetry SDK Metrics",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9496f2fe971cab0592259e48ed6c8531"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4d955fb6c2ec89b4f55d88d7aed4dd9c36809235"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1e88e3b6426662d2dbe7424738c65c366d17f6501489fe9ed1c13375fbd3e75d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d9d34e75d2295ec78c19eb00d266eeea68e0f33a9677554a63a464c739edc0a6123ed039aebcc9a325cce4331b314459c3765d5a79ec21cf751a2a6910c1488d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "64580b659d55d7426c554779338a5600eae42531eceaaa9e2c3caac3035a9e7438e753c4ee8ebb03b4daecb6a7c36825"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a6ed30f037741a447120539584e833c4c3650c722995fe6105718d0b5bf01ce0ceb641d8c3540aedbd0cc850790ca364"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "890f863c32a75d9520c28a6fdf638ce8e9b1fb2e9a165b5379297483c9bf3bc6"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "822aec87c15f2e97ae67b547b66d055ebd292900cc7eec5cbcb3b02f4da0243fb6868fb2c5b6e7957f99a8ed895408eb77e1498aac5d432d9d0db1d55b8c567d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-extension-incubator",
+      "version": "1.28.0-alpha",
+      "description": "OpenTelemetry API Incubator",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a9d80ee35fe07ac9d0009d09f8b038f2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ad51d2ab228f522448afb90503ce005ce4a4f2ac"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "99d13fed517329871cc66aed24abc018816f0537f78cd366a36dce1a75082f17"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2b4fbf616a984a77af0de2b7202fafa1f8c5eae530fd99ff1f923f6afa4f655b2248a491417b77e4b11d86e2125f1785c0be89ab9f807f93e35ea27b04666df8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d70acc28a9089a3fa2e792a513c9ce94df3d70680a86ca089fac5873df10e50f4accec5a0ee3279c4a47905b1918a5fe"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "7fdc64ebb7737b8c98b225229d2da5c72e38b16e6cb17aade632894a57b414a79dae707557b558cf81e04d107a5a3473"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c2e5f56048c7c36bbb4a7f9ccf84137337e3885f9c587b3bf6b66552ba1773ff"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c92b8efd854a8e151978e6f77f977f5a045f8b8bd57d249776367e0eeb1427b541873d47a59851862108300ca9ebf7b91c30c223fcab76bed596cd4f4528fe30"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-extension-incubator@1.28.0-alpha?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-extension-incubator@1.28.0-alpha?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-logs",
+      "version": "1.28.0",
+      "description": "OpenTelemetry Log SDK",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "fa6ddb7929c5d84865509b8b6ed110ce"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "adcd0bc96bc77152a15b3b8890bd8a04dd0bf36b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "942f0ae020de37510ede5066f9b53ebf14c9fb3974332fbc04022c38c5219871"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "56f28aa2c832293e6595fd735dc4a616dfa724facb6f20aab624c6e535a48bc608c0e3c51296f7f9547d9c26cb5d41d62c6c4d485726e43540ed955092e85c37"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ab57152585548454e5a4d9d62c6f63bd55f43227f73df575c99cf89274ff0384f0d0f8aed8847eb44b6a6c196a5aa2c1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "511a51c1efb5df14c21437a82511926af0120c6e8033a4e5d9e42d81844cf527d1fe742e45613bcf6af116c40a61e4f5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "00200258d1a54598eda73427140116b2d774334d78ac5ab6b306cc9fe98dd576"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c072fb1da415b0703750ee54506aee7495180a8655143b2668b276695ce6fc98d916317b55228cf8b571ec67261076caf3ba623e2406f793cd7190f250e09ebb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-common",
+      "version": "1.28.0",
+      "description": "OpenTelemetry SDK Common",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9dedfeee882c7213af7458a292e99394"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b25e52ef6829bb41db3227d8fcc206009b018f40"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cc48f08411fa5964f00219593293adb4bd6e2b6cb13327eec492ac1105f72c78"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7af2361b9677c82dd670292f4eba76763db7bb5e70af1616052529bd2270f73eb62d7e5d24e66b247b430c7017eb341856a10ea896ff2316fac991127aab9d08"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "65ec1707f3c511f119db80a886285a10fca431eedf1e56d8bf65e3c2e2dfb4f1ff142419a5c040d3b8bc7b6b392b6551"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f69e772b4dbbf4594e088269a6388ddece576d9a33b6635b25161aa73df028d82958cf6cec2e61ad24d33521bad54ddc"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dad166854cdfd1f79bf44be7ce9a56f5a2834dc0207e993592b1bf2b1c8ba0be"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "29bd85d6f6daa21764ee6a635cbd96920895068a147c3b713fe2c2c2c44820034ba86004bcc0fcd5313b30733a7f6f506c6d96ee7a19e6f634fc7348db9e2b79"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+      "version": "1.28.0",
+      "description": "OpenTelemetry SDK Auto-configuration SPI",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "efdce19fb9855a5395fc10b3d5488e46"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "582ce034be1262aac6d77b92ec2d6cf4884cee4d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1df92bf83aee67c3686f1808ec5d5399926042867a069ce0262091dab8960e6e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1ac8062166e73fa967a271c49d01db5bba9acbf7c45f842929f463a435ba5c7d059e7b430e49fe461c8d426317894154dd0c1a7539c4fd2dc65f5694ea846911"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4cfa2273d473c7414244d58e7de850e6c5a2c2b220716a357dd3e1c4ea1af4096ff9f4a73f6098f69738380b4c7df2f1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "447dfb474ebab0762a2d90ffffa05cd6b08670f785da237a9e5befcd9710eec91b6a52a9c56fe297f8bae8617747599c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c0de26ff7318f721d66f2a3122e41e4e72c027bbdca2c7717ecaf4ba69230a7c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8acbe9a567a53865ebffb46efd16d39bed29dcd53c17e4f681989efedb136f942baf3b350c284b16eb10f710a16dcdcc3fd775dfaeda0dfe83e38f80267a1a09"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-extension-autoconfigure",
+      "version": "1.28.0",
+      "description": "OpenTelemetry SDK Auto-configuration",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b450630f2b9f0ac5577a1c398301976"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6db66c77ca29a8d05227324a8392b736744bbe3f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "481f3791df11d4b107d82532587f1a2a03997efec80aeb16bb0acbef952d853d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ab19bec289390d70953e14bb051411a7dfc390fcdebc6e66182d36f5b72dcae966b36bfe181b3519bebbc4ae15ebfd861869597049a99aa48d8e4dec1be3b436"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d840067731c698fb5c1524becf9e0fa2fd5adfb057dca7ee77eea05db9f488c5977c774fa7abe5082079b70b5aaa2c8d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a05eee8e4aa0e671d64dd87d821e449cca221cb2166ca367f607e2ccca259e15a33567b034efa4fd040989c76f9099c6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "890984620700ee29651bbbf9c9d92360257d944cc2b3db2bc41177a86ee33fbd"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "632ddf3fa4d06b23e583a578a171200a62a0985e2fa6192d5a56c7ebdc438a3561334540c00ce6a34c76624ac83b858ecdb1f3d7a097c2d01001d03a45df7643"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-api-events",
+      "version": "1.28.0-alpha",
+      "description": "OpenTelemetry Events API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "54dd00e6719feeb9cafb2024af0fca1c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c663155d53746308c8d2e37121b990c3a8de8d58"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "71a9430e027184d7d93c64b076e1b4b1eff9553b87c648560f11cc97f6451d0e"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "98adb09e2a946b3920cb2912ce267a1a4913163b218d68750de4d6a3ddbf4eb9049c30751c1936e6dd47c9484944dbbefd337485a3d4a1ff9a809817d4579b99"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "acd82f3d48befa2942259be176dcdc7af9adb62d32ade0b8aa0c8d4f4e6371ea6aed986170be85be3e814f5c9112ffb5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a8bd4ec2f414bea09d0309a343939b60a2b64eb0882e9c69dd87dc8972ff0013bd13a74dfbdcc6f8cf420b85790b4828"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9124899a194efda565c912db1fad907501e4466400dc0db94d61084d45254fce"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0fdcb2656a426efed41e3c0fd97a631e775e1f01b99fec7cf04246d5e5a977bcf8ebf6f01cffddeec802898df769b7385b267d484165ec46418ea284914d8616"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-api-events@1.28.0-alpha?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-api-events@1.28.0-alpha?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-trace",
+      "version": "1.28.0",
+      "description": "OpenTelemetry SDK For Tracing",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4a8688e089ed47f2a2e7f7dc70334d53"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "018797986d45940d873430023280211d6990680c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0947477d5e682c940d9117de1e8ecd678b1fcd8e514ea067bc583d9b663fefad"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "054d79835e11ea64caa8ea7f7ed305a071fdcb15d78a57d4b35a0798f5a0151d2a54ef7c7a9a875913b24a14a02fc493910314fd91a520829c809a21ed7706e2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "aa0fc7f9e6d8860d02e577918323b09dbac34623a98dc168904b02d22bd2bfcaa3e45082466883e186b7e476d975419a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e6ddcfd50c28a0d6627408bc2b4e99a6f17814b44bb10cb3fb0ae16d5b0d4ebae5c65913f9b70ebf42ff29d195791447"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "56b10e1564cba7c805f8ffc82e3d3dc5af385dc14442548b6965ba2a9f840312"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "51bfc4792323f2f1599333eb8c243d2c00a5f2a35d8d12743d466524f91a4f7b0bef98052b138c2edd5af87b932835f44880bc9c3d831a9c4f9c936f5cbfab5b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk",
+      "version": "1.28.0",
+      "description": "OpenTelemetry SDK",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3eb67e4f30869e0c03a1f236dce098f6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a1ca3938a03e5bb0749dc92da91edf76f6ee3b7f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6996e81091fc0cdf1d14b8cca7ed6d1f82412cb6bde387151117ef507c6b0418"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0eccbd7ed4d00c2a639346c564601a2e29e8e5e3a690d30d18a305586b16791672f3ef677bbe0722ea07f80376ae4bc5786d9b3190593dedeb4d58ea3e80018e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "72f2c943232637d54b442257e329066d6dfe04ee93ef227d6aa9498d86eafd1d0a70573ed0a0b963031ed0ff36982e6d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "39901ea394b9dc727b044b9e897ee0a77ca5256cc9a8eb9af399616cf9ea98a41494da90ece56c966fac4ded54d96405"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4e894d4ce5f9faa1c7a7cb10339ce32c41c33738d2e2f2a00675449942224d34"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8ff8fa9a4cb374b688eaa3e99316a3a67a6ae6fc23ab6c7397f5538bec411f2555bfb10ad0da6793af2e0678c677d07565531b99d8387a63e11b988f090b7417"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar"
+    },
+    {
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-semconv",
+      "version": "1.28.0-alpha",
+      "description": "OpenTelemetry Semantic Conventions",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b31a1075c57da5a9f344e8f37432248d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "97336840db7cb0ef7e5d292f7cec5bdb385cc370"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9ef021e5bad5789ca48594a3cedb8aaeb00f2f70130e86d5d6337cb71002a88d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "57dd69c131a6d49d69267f679dfcc61962c5963662051b8bd58768d10bb64daee2b7d85779c290f74eb80defcd70429ce0db75f28af208722669970b9d000d23"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1daf097805d68533a45ac6daca83f9efa1122daf4dbd57f88a0d5845199f6c1b4b33b6e00c4326bd4fe1f376f6956642"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f63bf3ff10961d642a354b0cd33bc952cbd3af6f588830eee05ad97a86bd83f4fef86f4c534ea1d09d6e0bb3eba24b8f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d76e0777b50417dc29088ca43203414e0703f9c4af38695d078eade28fa6c556"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d2b4d8925da704187af1785a2a2eba081da8e5e4e312538da75241e1949c16ccaeacdc4f249c358aed0fdefe096842788e8bb618bad27c55c68263e59c981d55"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar"
+    },
+    {
+      "group": "net.bytebuddy",
+      "name": "byte-buddy",
+      "version": "1.14.5",
+      "description": "Byte Buddy is a Java library for creating Java classes at run time. This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5fc88863db9283b924bae6bd0bca3467"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "28a424c0c4f362568e904d992c239c996cf7adc7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e99761a526df0fefbbd3fe14436b0f953000cdfa5151dc63c0b18d37d9c46f1c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6aa0bce80b4ff2c4e7525774f9961995a252cad83ee9c2fd663b3c16c6cf7d46013aa48faf74c07e3fbdd8aec8b0e0ed88bb680042b490fef67ff47da0eef0c7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "be6dcd39170a095585b921816a8be7f8e0ae52dbae72b4ee840c366257ce272947625fe8ef895962e25f07a0264584f9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ffaf8d9e1f1fe349ce6627c6fca783366b31547fe59618326c540548d15d07fd4de5f59854291bccb8446a025aaf45bb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fa51eadb788d60f26c73b3acced7eeb86646f88ca7641109f0b5c57fead0591e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bcbbfa34e089c3ffc6761cde4c7ff1da97d941b7254c1a94bb35440f32e5a55d9eaf7c85b01d61a9b49dbf7285dbcdf4deeaf53746401808c7a0fd0a27e4815b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.14.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.14.5?type=jar"
+    },
+    {
+      "group": "org.asynchttpclient",
+      "name": "async-http-client",
+      "version": "2.12.3",
+      "description": "The Async Http Client (AHC) classes.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "334e9ae90fc4db1b16e177f09aa1fe31"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6dfc91814cc8b3bc3327246d0e5df36911b9a623"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "107a4ace7a3586f8e8a027c6d7e9933c9ae56eeb1a6df347eed2e7b552e4e5ed"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b5152d3e1a01239f2041624815dba80633d1514932d9cf5d3c82d548736f856e057828da36e5bbb77cd826bab409b1501c08245d4bbc7e1ea21b00de91c43a34"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "30ac33a492d4608fcfe37a6e4891f00d5e0d5d0e351e87beddee802dd33668203f1489669299bcd65a97e24bf608d30d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "04418a9503fe4131298ea05f33479bb0f4985343e3b6a1aa13a4f3b2f6eeb62c9eb2e7a9092514f86fa3cda1ef6e8621"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "de57cb1ef3151f28f0c05c0fb97258c6c274f468781bf6985b22124d8600cc86"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "20b969a66f5a2e2d9095e82cd1236e9bf331d21e5620c98402673b669549c1bb70b3d5aa7b441f922756aa0e37a5d931e1027f5040ce1aff535581a136e73903"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar"
+    },
+    {
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-netty-utils",
+      "version": "2.12.3",
+      "description": "The Async Http Client (AHC) library's purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the response.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5e0d471baa6e7e4f9bd85220d1abbea0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ad99d8622931ed31367d0fef7fa17eb62e033fb3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e0bb76bbca0c85c68cab25dbed7989b00db5da8627cf69258f398d7d89bc9067"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f97efebb82bc6102eacaa3393d56f02fa7369638c5b54b426c54cc60138b4d9fb04705f2513fb377e8a7b5661d59f4cf8664deb50ef1c728a132ed68fddffbe1"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5e676ffdfdef71868da1563e6a73d00338dc13fb2ca32e192ca57cced767a5aad3fb911615704d47aa152110febbf7ac"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "270ca62e1032fcffa87f7d531c510300605b0d358563e38189f8d1354c44a54ac63779367b8adfd1f643793e03c168e6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cf7ee0cbe51d6da70f7bbeffff3bdfb9db45cca45a6144f72a3cc7c20ef109c2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "73895206c94aaa5d9f4a3e2b52bdf3ea9ce8be26608b943fa8c33807957fea6c99278bff11246c52caf3cdb3a382220d58540164117a71e9d39638be1aa85aba"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "63a724eae52cfd6074417bc6d500195c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6f4573281df659265bd709fd10471c3e00ef6c70"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "76bfb4306c67fc25ce6a817ef5ffb0cebc9250506a685fa6ec06052848c14efd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b5c1d94a1fee13af0c6bcb8ed663ae6a987c3ea9adbfe57f229bd09492825d1e47eb019b7c2bafa061ee8adc348066e2f003c0a44569dc11652ed76bc15fac6c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4117cdb794540c192104a7163e1b7573c8cd5065d297f926bb4751c3e4acfe491d376064187560ad7d3d252c8b3dc2d9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1a3151a1465236e9687f3829797672a3c0c161f1324caa24052c652e49a16a66137e7d24c48d37073f532edd216a1d12"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "29ff872963091547ec0c624a74df38cc1d8258d0cb1e795b24c82fd962839bc2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a9b3aa43f3118251436a3e71beef888af7479fbf2f46e75f2aa8289d72e7df696bc745dbb0d3550102c7e279254cc6dbe036546541204d7568df7835d9c867e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "787ed6ab8f37ccdac712dd44dc548673"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2352f12826400e5db64b36fd951508ce9a61c196"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7c797450f50a5bc549bade856e91f4bed95cc6396e85b720efbaab133b13b5d5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b520d950b92a50ddcdaaea6a1c89f8b9db6fdec2aba2f984731728cf2dc79d00969a2f4a4cd4e30ae5f3d05fd754f8fa6f210d52ae531004fd8cb2735f57718c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "30500be26c26fb517adea33b8898a8c80e9a221717c2ff7b680ca3b3825babaa460e310bc06fb41537794edf5b5c27e2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "583eeb560ea6c0f07428a1d829c293c7d8a9a3542e2a3c606de587598fb76499fa8e05b7bb1b8d0c97181d7ee24a98e1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "52743cdb02e153b1e5e41f4a8b552bc8595440e2afbe37d41fe81adb6eba9a9c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d60e363eda7af322da4e4eb493efea9afe49fd2931670988939fe5d2080450343117595703054dfadacd9911fa00d0aa277ebbcdfb631ad293cb6e2e7c49ce61"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "29d7bda4d17bebc7ded02d5c81eb6b74"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "048bd240fa29a4410e22b64b6d4c26429577d6f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8a7339ccfeb2ef88283a32226f207aedb963bd452e691f2e0de2c98b5758a79c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "926ab1f6e05e5d544c026e3a2d4863c0108c04020f99ee2b384b9ea38456f54f5ec8bee8c890b979b3b8c84e6557f18bf89fa305a9aa2cea5ea3ecca28a5480c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "792c53c6e0ee11a2006eb596f88c2ae5e509c558c1106a0eff95d4ca959966ce1eb4db6cfe6bd6fb8a9432eead272a75"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "276bf59a739f432ec4df49e6198726d5f3651dae0b18e660665822819eddef90b10dd1052654090da0c1588272651c1d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2cfb4718158163d765b5260c9b1074ace0d2a9ecf8e5f5a9e05fc1060605f354"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1b30aee2c826986db5dad11341090807c5677f1c97ddc2421f9799499c78921cfd53b7a5c64e65dbb830f2cc547953fc67e287330e835ce76884bbdec86cbc0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "962299b6692114755a34dfd8a84f48e9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b1f14b5d5b0e52e4385f1cd1a6c4934521a8ed3c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67337e52e4bf24c39b52d1fbcadf04f762272726b437f03d3efcbbe98b22b27f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8a9f13a8adc0397c4a0195a27bdf2d39abb33f5774aecf5eeffaa08f9713f693c36c990f97bbc99d8ff27e3e642e3b8aa047203906eceebe90d4b7388f9c3ba6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "25dbdd30280d6a4949e6e01ec3bb8a0a4fa24c64293d75a25427eb0b26fe0c92c8aad0003fc2778c0829ba14e60b40de"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "360b5a6811a9c18cbe03b982c87bed683f42b105b876561a376d862d99f8c03e74782c30489babab90510fc0d1abc00c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fcea5dccc702535183d78edc4c7a07b08b0f17f780b0ddf15df3b8d59f7696eb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9f333340a1a46b54197cbc452f24569ac284c62fdcbbc23dc7233e9e10406e05c99e7649528cd116df7a4054554c100e714e8af41e46e58a863f4b991dd297c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar"
+    },
+    {
+      "group": "org.reactivestreams",
+      "name": "reactive-streams",
+      "version": "1.0.3",
+      "description": "A Protocol for Asynchronous Non-Blocking Data Sequence",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "69122b098fff1c6b1bf2cd3b355e7e03"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aafc86186d82b4f3bd44ef7f955978481172eab267d208aa80b24f8ca218bd902d69b587fcae2fe44a888b7a9f81fc5a209e837958307fdc0ee815248f7065f9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dde10163531896f3b60261795a977cea1d0114514e8fc95f1ac4b6f34789c4b78c4c83ead210901a2edb3cae9f113ed4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4f9e101774f39c8ebcb2ccd3f2fe996a1f99bd879fa34ac9ba319e824752f6bdc6159d242497d38587d7191bba796e3a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "45c5459f651963c5797e32c87e3b8456238229f9f9e64f543eb21d6a6b7a812e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9edc79ccfd2edabe1339ad79a10137cd0f1614671f976d6a8a603428b8e5179c9a6afbf4f9fcd44e6e3795be5c487cc5aa97a1d3e6d9a3e88a62d3f4de60a2ab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CC0-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+    },
+    {
+      "publisher": "Typesafe",
+      "group": "com.typesafe.netty",
+      "name": "netty-reactive-streams",
+      "version": "2.0.4",
+      "description": "Reactive streams implementation for Netty.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a10a0d529ec175ec5d5401a394e785f0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0f77c8eaa7d5e2f2160b6d21ba385cf726f164b2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "eafc52d500b49e891db095ee7baac0420aea8a97015ab7671ba1f1ccabf799d2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5e72d66dfb462146de2cae9a062c5dfc5d9e3bb0beda316a97261e108c04b02f5b03b4ed448495a0a1df6ec264144fe5046422b2a3f6ea30c67a02c7755b255f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3119863e661a6b9e9ea967491d5cfcbb6b4d84f83ec5acc6c97fef5127d2f31ebf55d4e35611ccfcf65de8b85c7b7bf2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3f6f9f716b195c5033944e62c30a116de81265e17a62d3a1ed79fe47ea772eef6f9343de53b182024130b0445f138652"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "01807b478ec11d29805afb3a33a06ad7b6ae73f11d0260b63eef266e43040caa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a5cfd72d3ab862134fa841f9931ad9d2a677e6d6eac443dc453738552d6b6e6f055dcce0a2a95185d457a8520a34466ea9587e4f63738af3f17193cd5a82c294"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "1.2.2",
+      "description": "Jakarta Activation",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b8bee3bf29b9a015f8b992035581a7c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "74548703f9851017ce2f556066659438019e7eb5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "02156773e4ae9d048d14a56ad35d644bee9f1052a791d072df3ded3c656e6e1a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8bd94a4370b827e3904f31253b022e5c1851896d3b616ca7daebfef259238cedc56d4ced32c74f24a13c3e2295b0ea012af5d04656b7f713cc53a2f18d5e2cf7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1cb0aff8b73ba52a9931b2cf13c75a1ce6665fb826bf97ede66db75c532136aa189fb53a1925e62b6eef572309ef3b9a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "83801332576d931f4091ba65ea240d49c23e3b93dae939ce2eed63de943f80f251a4347638b99900de5b831796b12590"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5363211b59dfaff6e1973e93548e5e4062189c6d0f43d7802627ebeb7b7ff37d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0c7b62a3432b19ffad02eafffc7e598391cd32b1313d075f94cda09913402770b4ba2314716625571f266431067229c93cec36e17c3ea598623542988634ca0a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-os",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "69375674e45b44d46c8f2fd537c8c5c9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "91ce811433b76a85ff37e8b3aeaf2b919f4e65ff"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dde618af50f5e253df07d1f23cf60abb1f9a6da7fb3c36da22df05374e0b8f1c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bd35296bebb25c3ca3f7e29a153f4503bb8c704605097551a30ed87355be058634cc12157111d6ec32c21d454f9537d4f992f261e4e741175800d9d13adc432d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "aa209a7abe29fdb12a6e50b9cf0231b86b73d0cb12376d53fc7181d1887c522a1778c3cd48a2d10b393e867e21fc8e23"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9b04f97cd5d4fe7231764ebae8b80ab22d191a2acc0501fcb675b2bc6f90adf56360a209a5ffb987df2644031da90c57"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e18fab91213f92c7c0246aaf4a8ab8ea9fef38003db4184c40bb2eac23de0dfc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ede86bc7695d26bfef3c10d8689ade4680be87b22a358ceb51e52963c7e3633e57d3ed538167e79de61f6a6e44863af1515d2272384b32c739c6aeeb3fd9ee62"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-os@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-os@4.13.0?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-exec",
+      "version": "1.3",
+      "description": "Apache Commons Exec is a library to reliably execute external processes from within the JVM.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8bb8fa2edfd60d5c7ed6bf9923d14aa8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8dfb9facd0830a27b1b5f29f84593f0aeee7773b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cb49812dc1bfb0ea4f20f398bcae1a88c6406e213e67f7524fb10d4f8ad9347b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1543fb3d06491a25dabfdb889808942ed31a403ee349d59fd1c7a850b74fc826e8847ccfc9eefda111f126fe38298083cae5968c1f447d6d81005ea06449c3be"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ae999bc27d8b2efa6fcabcaf019615754d47184740b712c9d64f23195a7499ab87e4a75fcb25a629238897d4d73c362c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c9e24f28844d7a2490667253b6dfed467c4b0a0b1c21b3a938133a428a6b500ff7080f8e5dc9746c75df96eaaf78257d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8a15e425d144e4930be6005515f0df6ca5ce4245c6cf04756154add0b4087a87"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ecccf73cf760ccaf95d679e0e1e6bae56f4e8a6ecd6e9420ad7d302d050aa70a00a510ec11dd7bdb6bb17c87220012ddf6a421903d97a9caf9e37cf143298530"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-safari-driver",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "788c07cb9f66f697f8e9f5b0a6a7777f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "739a5e2a88b640ee7660779ece1fa0f8cfaa1372"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8e3fc62a4c38761657abafd35b224a9719ddac17d213cda7064ee9321b88cc3a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "53420fab5081baad65206a5fdb74189002974bca309b16bed524265928406cdf1ec5030eafe2cfb81417708b17687245573c5a8edcead3b3df4708e3086e641a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ffd837f218a82f1639425043d88d22092f0b8132f974bfc324bb77a8def0d5befe2c25b6f6ea2ddf92ff8a03b6741bfa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ed43f21a170b2f2cf291e109779ccc45ccd9e6e7d5905585d3ff70e774646fa93797422718dd89441baf3ed968213c7e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "426ec339614bc950ba0ffea468a1a636791146679ea8666993b7e46143a33b26"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "360f09b1968f6f647b56002c5846c5022bfc08cd3b640e401892bd345e7c588b9a6322060faa863793d1cbe8a7b00789616b505ee52873ea03447357fe02941b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.13.0?type=jar"
+    },
+    {
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-support",
+      "version": "4.13.0",
+      "description": "Selenium automates browsers. That's it! What you do with that power is entirely up to you.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a4d9f99ef2bc141745154ffb15e5e62e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "decde2a7df52ce78132dc6fe6085384327c844f0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "53bb59c47f1d161e3083bdabf058de8d310f03491f872c9bd0dbd2977cd87b06"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "314440c918d58132396579fd94af4a7a792dbc9016697d0e1394caefe5716092863445662aab9e122164b8258638527b2477cc6a35b158a39558c24d8a36b71d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7a8c31410a025853f9c3bde40843651b14a1e6c9b82be97ca772add7e67488f798f614df7f74c68c22ac621dd4d48c1f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2fe97122de1034279a2cfcce575f7fb8cabb47cc2a90fad077540310ca815bb27c30060208743e507cffac34f6f506f4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "afc9532f0f854fbf954182afe89d2483f4ae63219a961a7ead94ce5c29c8e75e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b55bf7f5d1ac8c21f938217567a6583df3125a6e07a3662adf738f09f587aa92f0181ee1f04a1f6c24028a788ae46f7f81551b63b6df9f9694406faad49f1754"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-support@4.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-support@4.13.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-java",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3dfa544f21060521740930a501b8b9ef"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ec036fc058744732b0d30b3827a2725dd5c12421"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "34c0227f6b426b7b3bcddd6af920ca9ee608652dfb4695194fd434c82ee26876"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8c0db594dffaece2324845fffe35f0f44e4f7d284721aaa0a8582a1bf35949bb2c2f4918884288b36e1c882f6d4db2b8fd6f4b18c2dfcb6cea13bcfcd6b56313"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c39501fb2e752da242eb48677770ed6c989c124dfa0f2ebc606d6967036f402b0719689dc76f923f70f7b91c060d7322"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "888e9db299903aa4ce243be95992d06faac664a11c734c43fefad0f9211f5e8e7f08e2021509f12f2c2513e798363afb"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "73ed0ac1e03808eb3e2aee72a675ddfb8e077925bbe7101c96df0835543b3ddf"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f4543ebe0982dd824542578f97f504deb3f41b011fd7207183acf0599e373c0f057ff49841d8d0af8cee03d9162a9f111ebaa9fff9ff51190bdd44020ce1947c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-java@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-java@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-core",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8ac60c7c5add234d5b965355ef704ead"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7a6d59c3c1ba9f51d0a216324aa7c7ab6b866614"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9cffaf43c4522ce6828c02ac7ce4c5fd54ff730b8b8b73f618ac7d5b70388ba3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "900117138097a1f01532d1c1c14cc4616e7e1b4355cf46aacb45c29ca4778adafde7e1c36fc0eb06e83856f38fe04719aa6b5c08cf7c217b56edab1e2f3cc546"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7c11087a2d3e4bbc118a1306f44cba16cf7c6b482fa6059c222fdaf182bdcda52f92a7ff3fa4c5141e2b9e67e83b86e3"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c9595dc8228687430aa7e0071fcdecc99b9d5b06571e2dd24925de36dc3efc1964a690d8e3c0898c9e78879790299a7c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0da3b6e8f16f5d73bb1f486a1cf94cf0234318d02cff197d92a2fb204d7f9033"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "26c1a3e1fa75f2a8103ef421dcb03bd67f3a058b5601250094e8c8df15d4f28ec65fb4ae1a212957bc252f2838971c12db38c8cabc9559805b7425245264021e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-core@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-core@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-gherkin",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3e64fddfdd3c4b6be607a30760898379"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cd30426e1a62c757674ce73f310582db61e8662a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "03b094b3380db726d053179857b61d98f2e02291387a9401936c430690fbc683"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1e6b2ddc84432227b4729af1c069ae43fd54ec564e610ff3a67716d6c4b7d89a4b2d27fff1ee22420e29696f54b46f0a494f78beffe759d042a6f94d080fac62"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8e384988bbe1b58553549c7b3479e690c193557d01796030b38f8b37f8846b03c1ab38eeeb05946bde09da2cc0a14b9f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ab6d6ae9a0fc95f4603f7816bdba948c8197367c2a4f15d679983009d6b3787ea9785a025c389b7278f061821977fcb2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9ac188546c4e88d6e7cf799a7759744ad7f30f37c67f937c9a8cbb296dd574b2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d7ac43a7dd157c31d5032b4a55118dcaf72852c227681d3801e09fe69fed81002de69f7a9d0777eb5633ccd4a702424a9d2dee114f657975bb831569532e8331"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-gherkin@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-gherkin@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-gherkin-messages",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "cedef9fe2798cb8c4cd5b0ad730358ea"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8f14c2e240b666bfb4713700e088162e56808342"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c260e77a713fb30629fb9ce248663d82c308f815dadcaa5ef5a150e40ae95720"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0f6fb2127f5ce290fb304a2973b8b97e6e2f86b08838b2141aff9366b957282f6cc3d238791ff9fe70c4d704a784ce723abeaaa1ca43a496b2d7c714e81289f4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "28233fe3ba8b0603f032173e542da30a872ff5f281703db0b5b71ba164d710290dfce3e1c9b8ffb2ccae171f8e22d0b0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f60db57c80c6f17e9dc45d4b4da307e295cdc8b80a7ded9bbe17003ddb3238f516ef45692a50d3fda51a82a65f729566"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7b00e18e5575d8bd014ccfcccbd7d7efbebd946caba35aa3cd354a8c6986bd74"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "eea0308a38c3a323c23e600803099fe8abe5734b562072c473b79895bb537e34ec57f31ff4c1f30b0f74a8b2a08552ec59277eb1e01db8ba319c7b6e7b503902"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-gherkin-messages@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-gherkin-messages@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "gherkin",
+      "version": "26.2.0",
+      "description": "Gherkin parser",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7bb04657650ce51a3dbce2e2e9440e1f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "306fbc8c165ad21c8a7c6519865c663bcfadbcc5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7222760bc99c22232b7d603efb78d7116b92e06172abb15fe760ccbaffc99947"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "76eaaf4f63e24ee50e69231c780049cc8a28ce30a77a222acbc5646a4bfe66f807c11cce56f6e2fbc9b7f9ca8b0f6c961bfde614a1cc422c3ba130d2a1d70227"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d5029b8b96d893f33857416bf3d3fc531b405749de8e66d5adc62f718e3b915bbebe78ccfc7e6e0a4c93f35243d53cd4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "470c08125f22d567ee1e4d9ed259407125be1da60afb22b3619a1fa54404bae5d5f0903251d0c1ca591fc3e8ddf74e59"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "48fdb7f9a2b8fdd0968bcae30bb4034b9ea8c803dc0f2002d7c8e22901671467"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8515a33e278b4b31e2c21547fa945fbf75666ac9f152da79d250fa3059bb024c5a29a35d756d699d659fdba7b8048bb94b1a6524a5e1b047d3aed8d4a016146d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/gherkin@26.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/gherkin@26.2.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "messages",
+      "version": "22.0.0",
+      "description": "JSON schema-based messages for Cucumber's inter-process communication",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "059f1d629e17722871c2b4682645a4db"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5e44123c146b13987a58a7dcff6a92b5cb64b53a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ab921119b4f4f8dc4db9d7b028c0844be30e00eaa6b97feccd28769a05737282"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "77ae660f13b5e613cb6be7327fc75ba1a5368f35b0242e85ba5eca531dd4591d8b79c0bc8a24895e70ed3fa630b2d303e2f624b9685c7196194925461aa83aaa"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4d0d7266616a514950ddb72d4588345371e06a5c617dbe67b1c508ba68e6fb929c19f048d0d49e47f2c03d01c323ab1c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f3afb8927fb80f601e191043a932347a64c3496ddeeea2d3ab392e26e841689d6a5bf184aa6af367ed2224a4a8e7b5d8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e371c304fc6041f832e52268d54eb9af6f4969dfe462060684570c3186d2515a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9511c91e1dad6dc309b85c3013b91ed1c41fe9dececf9a5472c346837b1abfd98836da6bb097a75ff4db4d8d0133d333b3b93a954414eefb2486720be7f1ec7b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/messages@22.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/messages@22.0.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "tag-expressions",
+      "version": "5.0.6",
+      "description": "Parses boolean infix expressions",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2f2a17e35a652ffbf8f889e390af0be4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "79410dda92d1b6de14f87d0335e7e8cba82cb896"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fc5ef3218473c9fa1130253e59ed277a03953881808a5faf45814cb91b3c713c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "79a71daacf0dc1a0686087c8c1d5105bbbbe94aeeca7f943887abf4d1a45722294f834de90161d6e542c8cc4a584c927cc6cc4e539d10b75ead4df66d5ac491e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "68d675b823af310bf15dc96ce1c576fb383c95baf729a748e115ca7bb5fc2fb7c49799a790700f129f09be719f832695"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bbb61f5234789bc3226ca6d9395e461938a9008e2b06987e96ec3c7fda8a8a2f43dd032e70b9ed6e35ef68ded67ceebf"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c2292e5121d867b378d1231f74437dfce02440d77faffed51cb2ad90cc4c8e2a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b04aa6299a26125850f14b268bad9c4a147d34b486ecbf3d740d2a7b9247e3f158c3dca63860584f3a7e62c2348ca3a031d295b57332a6bbaf1f71d9326e257c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/tag-expressions@5.0.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/tag-expressions@5.0.6?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-expressions",
+      "version": "16.1.2",
+      "description": "Cucumber Expressions are simple patterns for matching Step Definitions with Gherkin steps",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6c1ee6d36e4995c410e332c5bf460ff9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3a6478498624c462c149efd46e4fb2d467712ae4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a8bd59ab55a99ac293349db0ce4e9ebcb4f39a8fecbe4ba511c7abc365725b99"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "61365f049adeae5712f3c259cda326224c0d6f4b46499be09e5e5cfad3a38780134ef9786a70664b5926a5332f7eeddbe33a81fb66a13e40064a20d8fc9af672"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "eaac4650889380e0a2e69c9c88977362889c435556420814e649b3e02aa3de3c7540510dc2fef2c297207cb837ca947a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b49075ea0e66680de9434a86b7435f6fdb06ee8f5acb91e7f723cab680eb6871bbb16aaa5257646a335e3f0fdd545369"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4d1bdb9e6ff07e241ba4cab1f38c4357f513c3de32198e7e1b61351f49be9af4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "80d79ab742947b7dbc1661019c45022a7bdeaa6c2c6e10554c81f94298c25602ab38544e4f678907e055d9200c5f42e1b74c0e635f67a9141d95d2d95886fbee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-expressions@16.1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-expressions@16.1.2?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "datatable",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "951acacf1987a479c28fe89eb6eb8cfe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "634e3ce2444ffb6c8203055ced2f641cfed13596"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f4b0fe47b0095eefef6bea56124ccd295dcc7a9071f38cdcfe72d2e1e28f4442"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9d0870eeab8363f3e30f32e54c6f3511c052fbff2300e3882dc95347af9a29e50c2375383c43f0f01866dc8b0dadc9b908a4e7e865dccfeb7744beaaf4196ff7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8fcd581bb2fdb0e49c9c0b633b5846e9c79035e3e816438842d4b91b2d9d507835b59984a73839976f510b602ade2c5e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "082bfc8e7ce590abb0cb639fc6fdabf33f5ca74a3e19d6868b7352f5538e2c8bd6147b00601e32648468e91d1522826b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "731ba60464b2e9bbc146fc15dbfddc78bf0058e0fb91923306702e5c7330214c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "49c72a6a17bb103f01c731471a03bc8c51b3515ce34b94f96c65d252673e09f9103bb8bf47cd31c18045b5dcc0b857350bea5b73a9198411aaaf7bf58783ddd0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/datatable@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/datatable@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-plugin",
+      "version": "7.14.0",
+      "description": "Plugin interface for Cucumber-JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c7d57ad611adf4a4730dadb1852fd16c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7456a7b8237a9ae7c256a224bf0c5b97e61ceae3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4b58841bf8fa2f42ec8eef425fbd5c35b3aa850083a30ece58947d6d7fc5f409"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2a1fe76434bcfce56d35c0c580c4adf8dfd8383f68fb3359aabbfa347647f7c15861015d5be7967244425fa6464fe13f61fbfa2a03697f84e110496f7d4e2fac"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b602cc37809e8ee5a84c007610ed4df8de0647ab9bc0f7142cde04351f0a720fb1c361aa09132adb3430f7f976aafdd1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "41b8378bec1bd34a2bb249bc798090640a679884525ab74ac3a733aae925ed65362e6d2d77c6c067c1ef07c473023ba5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "79fbc7c6b5dd15b5deac549bed3e12373d84ed1995e5978a043a478cc3958b1b"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8bb92766f45a90027aaf4ee37b086aad2c26c804f9cc16ce2d291c8900bc941a05c14e5698a47f5bda0e4ba8b166df80e221c98fe179afeb7c079d13e18bd644"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-plugin@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-plugin@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "docstring",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c5ffeda7087c4acf5621bbc38b112c5d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cc974e42108b5fa758f528b039f38287c56b389e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c14bc83ab174ca13b20082ee8cd752c85b3581ea0617b988c0c3eda7c35700ac"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "48cee0774fab073ca52a220b8ab8284aa2ec7fd76ada35e4104c897af839a4d017e4b9abe951e404a33818553f80ea4c12c34ffe68e13ce84b2bb46803b81b0d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2bb9fddfa5cd594cdd2482399b69fc1920799414ed3bb87b98ee034c7e61ff0c8c918251b015375ec220024cc20dc6f0"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0c36a55caf40493a1bfd7bcfb754c24cc8204778f2bd9b077836a0f07140944293b1aebe5a3214fe35f0fd5a034ab15d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0727ba7746e9b2b3bca406d6322583797544e63a39b627de01aeba78fc345c52"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "23bf8b1cc27b24c5fae73bfbc91b964591e463fff957373a5f121493fda6470e96557215a9383e3d6277b5657d9e262583bf530efd5c998566350998e065c235"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/docstring@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/docstring@7.14.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "html-formatter",
+      "version": "20.4.0",
+      "description": "Renders Cucumber Messages as HTML",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "87a890fd3eb5b9e4e49d40b6c87e6ea3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1f8e4ed1dc5699b4418710e60b006d38f815b02b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "af70b7d9b3892fadbc0605f9e8a48d72795da010c3120de06fe976732c6cdee5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "94fa8c47016ad354da0cfafe1ce63e58a4aa479ddc4099e9297bf28e34d7c897b8bf3ba8ee398dacd4d5ab57be83f3ea8eb7322d544892e433791fd06423a7fd"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9b3356a5a207a58227c56f9889b39ff37b58f1bf2eda8850ac749a65ceebfc3e47d385090c32f99b61d7d0d01578cfbb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "26db011aad2fa4aea64fd27df7d24699d1d2f6bc1c507433d763e4f800de620f68c7f8d992c55032b26e318d23a763da"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6604ba93cee532908058683460c9762d9f46c8a4f1adde9fa2c571f70d7bf970"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e96486e2b2399ecdbada991deb7a7238134fa805d35f0aafa6202ba8edab8bb0a261a7be66d3616bed5269a2213cc5a19abee4cd0449cda7568b08dd7a2013b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/html-formatter@20.4.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/html-formatter@20.4.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "junit-xml-formatter",
+      "version": "0.2.0",
+      "description": "Renders Cucumber Messages as JUnit XML",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "46c51bf2a3f51816ba81e0ff9e21785b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b5602d3fa7a1bdc1531ed92e4c02886708b98788"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bf84ebd603eaa9fd3e7aadda9fc0993c45199e40117ea85c1db58de5a7ac749c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c1d3b9c7eec705c716f45e97ea4d0305aa1b80c98176a88248608acedf1546bc1674d1afdd94910c9f4ac84a77db0f858b8d6169be84bfec382fb18d97cfaf2e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "8e5aa048c6c4660b913b17bb6d30ef5253327b92b67e7a20f0a0b61854ed55d1cf5ece63025f66fe338de947afaf4c08"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1781c695d513644f7827349a4fe1abbb93fa17f6a9cb57762c1d4150659e4c37555c2d9e038b238c2a13120c39bf94e9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8b734f49689633906a06277eac26d7b577a688308a88f7a23024ab0edf027000"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ed49758cba0250f446d40b9a23d941811c0c7d59e078627efa8a9969e75680cbd0bfb375740eeea0b9b9a6599f2381d4a4a751afc1e9a0c218d7fd1f2b3748c9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/junit-xml-formatter@0.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/junit-xml-formatter@0.2.0?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "ci-environment",
+      "version": "9.2.0",
+      "description": "Detect CI Environment from environment variables",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ca4b58e33fbbe449ae789c846b990396"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "939299d5dc5123da2cccac6ce3aca00ff4ceb710"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "75a9617669bb99001bea659e68efa878c8483ec5c60abf7bedac657bb0cd942f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7b373466f3eb1f6d9075ae4318b37b05cd14e5fc3d5b241a4fc2f6462f5fc84784005117f121f7f14d9b32f25fd71292c3e224ee291feff7f16a4f626a6f9c5f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c8ead5bad25a6c5ffc62b2c09543448d02ef17b79c2e3634be17ed01481ab1ef821b62935a5a8d581b6024584ea5bdd5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "20eb9c092790711a95e0eaa52cc30fe1c2ee2edea7fa1ab3c0688d3392544af4a55abe23a2330bb649a4f4ea7bc4bf21"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "589b2c041145d721a21ea5417c6d7fbe859341f31fb342ce4eec431c628ccac2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "eb807d377760d1e135f280a0b00991ae93028047e7aa844df977862ec42d10d897449334d2d74daaa71c5c7a27b7b5ab100272adbc0c84a38f65c7c5edbb64e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/ci-environment@9.2.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/ci-environment@9.2.0?type=jar"
+    },
+    {
+      "group": "org.apiguardian",
+      "name": "apiguardian-api",
+      "version": "1.1.2",
+      "description": "@API Guardian",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8c7de3f82037fa4a2e8be2a2f13092af"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a231e0d844d2721b0fa1b238006d15c6ded6842a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d7ccd0e7019f1a997de39d66dc0ad4efe150428fdd7f4c743c93884f1602a3e90135ad34baea96d5b6d925ad6c0c8487c8e78304f0a089a12383d4a62e2c9a61"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5ae11cfedcee7da43a506a67946ddc8a7a2622284a924ba78f74541e9a22db6868a15f5d84edb91a541e38afded734ea"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c146116b3dfd969200b2ce52d96b92dd02d6f5a45a86e7e85edf35600ddbc2f3c6e8a1ad7e2db4dcd2c398c09fad0927"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b4b436d7f615fc0b820204e69f83c517d1c1ccc5f6b99e459209ede4482268de"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7b95b7ac68a6891b8901b5507acd2c24a0c1e20effa63cd513764f513eab4eb55f8de5178edbe0a400c11f3a18d3f56243569d6d663100f06dd98288504c09c5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-testng",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b512e1a9d077197d5ca42f0c648e4619"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5d825aa2257582b13f7bea0da0adfb411d31cbe2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "07a41b0f451ff3e4c118f625207fea36c00539dac4f65c0c679177c7b5e57f9b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d821403c34df61007f8bef60f3fb503b3560d94ae1f2105d1b6f93ac5c330c581200e75683e3a546a94c12b82295e793394d51ff0371cda5ec1c7af6d2ee307e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "42a79466ffe3b8f50bf24f1f67ae34e9f257c1b8426bcdd02ff0672773c563ae5e4889212f406afb9b6f85c428c2f425"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ec1ba02b69afa2057590875bd31f3c4958d773dec50f17192b83acbb408ba31e74629a1f9e7df77e46966c35c7f1b51f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d811cea786d85a8bc1c7f50d6b1030689da7bbbb4d7554362eb341a4f7919c0a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9b896919b84bf28e4433418fd13a9f304d4cb7ff79139ae9d4dd7974ea637507e5e8c4efbfec595f7b799ead54406e570fa093898094b883438fde7820cf1473"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-testng@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-testng@7.14.0?type=jar"
+    },
+    {
+      "group": "org.testng",
+      "name": "testng",
+      "version": "7.8.0",
+      "description": "Testing framework for Java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "816c07722c4fbd2e734a5c36a2f0cade"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "90ff6902a350432ce23ef209b2f109bcf587069c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "dbbc43e2c64623661c3537f9d74061eb6c8fc3e5b4376f31fadb16de2b200f88"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "0c0e8958271b32c40468183e554c9e7c871490007e4e23d9e24a2f3470912d7a5a5c0190d30504c76d67c32b76054d69831c8805a0ea79104d9daa129a494dc2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "36dc751c22ec33883e279c237bebeea6249557692a9b9c75109fd6054f0a9243eb9f915bdbb80447e30bba23dd6586d9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5c433af3cc68d36317a18fe287bca93ac9b7e15d32c9e33b37a0fa8cea16c42baacc8301611ce0d206e05f1a9623a8e0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "054e4d2b8ab7b9b9b158a2535d69ff16771ff378486a5240c745b6ee83d1d9cc"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "050fb7c72690675dca5f664917eced4f765fea5713fe87e3220e613df112e0ff2548f5ff97b055443d38cdd1a3432033fa498f68b665f671a7049b857d6f32fe"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.testng/testng@7.8.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.testng/testng@7.8.0?type=jar"
+    },
+    {
+      "group": "com.beust",
+      "name": "jcommander",
+      "version": "1.82",
+      "description": "Command line parsing library for Java",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "c350dc0db8aa038e6bbaf0050720d69c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0a7c5fef184d238065de38f81bbc6ee50cca2e21"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "deeac157c8de6822878d85d0c7bc8467a19cc8484d37788f7804f039dde280b1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "72c9beb5d282ecdebadbd595c4f05710599328e48432dc196a261d8973ec767d52038e5bd26e7c0b78b85b4455687d59f9d0a367221e848e39c72f2f583baf26"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4c1c536205e57f4ee6e27bdbeb809ce4b9e0c8273d678b06a8178660aca4704676197f70c28399886fcad70cf1bb8cdf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fe46acbe164c85af46002f3e76e5a2fe1a134cf0a9f0471890965ebd388b860e1e8469d1fa39fbfdfa9de718be5eb8ec"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "78737587181801bb459d4f09a1d2fba34c9bca274884a262cf9bc880fdd52c3d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9e0926e4e04de682de15a780422a5e7c31e8c5eecd6372122ba78a8e70c5ac8156b6b9b4e714ff280306d60d3dbc9d5b915fa8d11b472caa0080da0ba962a79a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.beust/jcommander@1.82?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.beust/jcommander@1.82?type=jar"
+    },
+    {
+      "group": "org.webjars",
+      "name": "jquery",
+      "version": "3.6.1",
+      "description": "WebJar for jQuery",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "da81e8f13bfc953d51a79fc035efe721"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d08df6250157cd2db3d9b01b11b76e9b7225083a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "da2381fbee4799631ba44d1f4d6487b886b22450c7fc85842c5fdfa03429b817"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4e61f9848f976ac6feafe3e02886d5b908261caa02cf497ef73035712a5ba812cb21b80d7acb4661788d8089151427fe32bd1040d363aa0a383e4d4a7a91b9fb"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2d2b1a552a3ed5bf6716b092986922b73abcfccaa205ed5ebc67a642626e35679b87c71d110efbfb85955d4f93a41428"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0262a0e701763ba3bf85f3b205517f810e57c8c1bafc1c32180e36481e5c1a7705efd0110b403f0d4469046389f13a31"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1deb1bcb0847210019f12fb97264eb365d430a61e5d5d0dd290ddc6b172cbbf2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "838c5458f8f8866e26887f5a6f1330fe1b145d2ba4699e21647f2264e6a7c8407597fba1716495598c7581f26b252d986cd2a6658f60fea597e89b52dacae4c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.webjars/jquery@3.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.webjars/jquery@3.6.1?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.13.0",
+      "description": "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3435b913691a5c1b173485a49850b1a8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b7263237aa89c1f99b327197c41d0669707a462e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "82f528cf718c7a3c2f30fc5bc784e3c6a0a10b17605dadb9e16c82ede11e6064"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9cce41fd8bb2a24bcf8e75898190730d62b656af0d1a199202cd6cc848956b8cce4840ee616fb559c254fdff0bd09def9e65de6940a65bc7a07a386cec2bec0b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "cb663314025f3c2da314c0880e6928f5567cc448ded5deabd5cece5695e6fd0d4a84349fc7ee9638c732204dc3b26519"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0642f12aef0ef38c8a6f5081f05de8bdc0e585b9556cd496c1df66b977746aefd2672a8941cdbcdaf169e5e2aba5d583"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9ea297efa12a940dc9191a352256c9f89bddb30b40af603143775330c6bdb0a0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c08c8c538c21ab4ad7d7e5c1e5c27ef075acdf15177c777a33209ea095fb3e3be8a97d14f3dd86306e7c310a6dbe5be030a696b9f819848f6eeec045149ee091"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.9",
+      "description": "The slf4j API",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "45630e54b0f0ac2b3c80462515ad8fda"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7cf2726fdcfbc8610f9a71fb3ed639871f315340"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "069e6ddce79617e37d61758120c7e68348ee62f255781948937f7bec3058e46244026d7f6a11e90fbc15cd4288c4bb1acee4f242af521c721a9e68a05e64d526"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fd6f7ad85d02ac63cd1a586c8bb158c1fc000495f512f097731ea9f749b5da2637615b821294962805ba312c738f40aa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "17cd61f59a162250b52a89c7c56eb60da253b776210500313c7b82744483ff84717946f969251fb4d76f9bb12a2458fe"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9dcb04582c64c79e788f9191195834ec75bb3457133d22a176a0ccb069b97103"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "990faffa454598a3fa82affe30f1323db769d2e1fff20d9c7163ef6fd95ac7a0874c06a634207a2eaed9e5afbdee68b225138fc75018717ba97efe3ffe92c88a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-simple",
+      "version": "2.0.9",
+      "description": "SLF4J Simple Provider",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "adb5121003554fa33fae318e98fc3d48"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6367825de95d8885aae056afa793f25a76a84b7d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "71f9c6de6dbaec2d10caa303faf08c5e749be53b242896c64c96b7c6bb6d62dc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "42aceddb2da7d1eda5d654d44675669d7148a2173d5efa5eb507aad170593c43bcc1d4ce3616fb8ad1ce3e165f0b83e52dc65577c3b3af848bfc1d7843e10a3e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "af4cd9a5c1f81aa9b33ede2a30c0c56c5bcddeb79dc09810cb6004aca86c9d8135cc5e3d11399d07bc3fb5260fc4158d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d8551f9945833ba0d78943ea85da41fa03cab508b17815ef01cce5aae9f7b54bc08b4cf5211d90c65502258743ed74a4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "36469974b51581e1038d53e1d9d1bcc75fd0fe275eb7ad0473b45ede4a796c0d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9ffff29bb5fe9d37128ec8fe4f43e1d794358768377e95c46eb9329b8a22fe2c53f1943fe77027f519efbefb57e726acdd21a5f0b49aae67f0af9a669a8e65e7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar"
+    },
+    {
+      "group": "io.cucumber",
+      "name": "cucumber-picocontainer",
+      "version": "7.14.0",
+      "description": "Cucumber for the JVM",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "faa4a9e9e0cbf2c6796751115ebc217a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b2e0fefd82b86f137b22f629b91d106e3f890e02"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4e054f55349dd429147f9de1bd92dc199aa1dbd4fb201f5128d958e3d0f794d6"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ce37b4cffc8e5412f000f814a63302df90b9c2f3d17d730b453446f11f4bb1a2ae473a2a1b306699aaabeef40944ecec3590508a700abaf447e72bd691ab2f56"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "eec602ea84d91aa88ec73a301d6d5d71e8a8a9005dbc22d9a0aae190b7d66b7bdf43b6efa7a8a969e66239fd1f17c43d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a2b80692e0e3de7472fec708ef82ea83fd9e165dfad1f7e6378d437a4ba92807df793695f27de41e896a10839524bddd"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "74ef59a98449f938616ca82e7866c7c3c7b39236a39128713473636889cca5e0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "51407fddcf00484bb82903990c9eeae8040a98cd3aecad003e371807b339e43d98600e17ebfe60824dec5981e9968275cbe7dd027a5f861aa3022f4403f34338"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.cucumber/cucumber-picocontainer@7.14.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.cucumber/cucumber-picocontainer@7.14.0?type=jar"
+    },
+    {
+      "publisher": "Codehaus",
+      "group": "org.picocontainer",
+      "name": "picocontainer",
+      "version": "2.15",
+      "description": "A small Java embeddable Dependency Injection container",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "462404f92bdbd710aa2abf6fc1168247"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1b05ebc330fb947f74fe98469f64f99e6bdd9892"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b7d85de14e544d627bffe20438a3071500fba191004f894a944b92489f7f0ddc"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e8fd942b1a0a05c15409bddbfbd6d419801bfdeab38ca8e28353ddf89b862e9aef31c7b3e2750340b678e56e74a6555fb7d3db232dc9a8d5f94dc348561f412d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5795216db808e1feb581d896a29a788c0812a8468f6d07b02d6704535597f9d967bb131ef8e5285e92277712912a802d"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1019922ee1b56e3c46bcdfe94621c3b07b22f9579b98d159801d75a61d757bf465c8aad829d12beab9e8dd4bd8999df5"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "69e277f88a1df41ba5ebe9b8e9e655bd77f7f715d41ae0440be8d3ab34b794a9"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "90c279c3e8f5b707ce50d6c92f3f9f0fbcf0c9264f67ab617e78e95853c8aee17f91ddb54f9f4302d3e214d0dfb12cf0215ff04c00e21d5b0fc0a3232c521b29"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.picocontainer/picocontainer@2.15?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.picocontainer/picocontainer@2.15?type=jar"
+    },
+    {
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "description": "JSR305 Annotations for Findbugs",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dd83accb899363c32b07d7a1b2e4ce40"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb09db62919a50fa5b55906013be6ca4fc7acb2e87455fac5eaf9ede2e41ce8bbafc0e5a385a561264ea4cd71bbbd3ef5a45e02d63277a201d06a0ae1636f804"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ca0b169d3eb2d0922dc031133a021f861a043bb3e405a88728215fd6ff00fa52fdc7347842dcc2031472e3726164bdc4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9903fd7505218999f8262efedb3d935d64bcef84aae781064ab5e1b24755466b269517cada562fa140cd1d417ede57a1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "223fda9a89a461afaae73b177a2dc20ed4a90f2f8757f5c65f3241b0510f00ff"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3996b5af57a5d5c6a0cd62b11773360fb051dd86a2ba968476806a2a5d32049b82d69a24a3c694e8fe4d735be6a28e41000cc500cc2a9fb577e058045855d2d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+    },
+    {
+      "group": "com.testmodule1",
+      "name": "TestModule1",
+      "version": "0.0.1-SNAPSHOT",
+      "licenses": [],
+      "purl": "pkg:maven/com.testmodule1/TestModule1@0.0.1-SNAPSHOT?type=pom",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.testmodule1/TestModule1@0.0.1-SNAPSHOT?type=pom"
+    }
+  ],
+  "services": [],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.testmodule1/TestModule1@0.0.1-SNAPSHOT?type=pom",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-java@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-picocontainer@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-testng@7.14.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar",
+        "pkg:maven/org.apache.flink/flink-python@1.17.1?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-java@4.13.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+        "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar",
+        "pkg:maven/org.testng/testng@7.8.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.flink/flink-python@1.17.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-java@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v115@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v116@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v117@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-support@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+        "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+        "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.33.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.18.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@2.8?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-context@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar",
+        "pkg:maven/net.bytebuddy/byte-buddy@1.14.5?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-http@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-os@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-http@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-resolver@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-resolver@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-resolver@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.96.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-context@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-context@1.28.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-extension-incubator@1.28.0-alpha?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-extension-incubator@1.28.0-alpha?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api-events@1.28.0-alpha?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-api-events@1.28.0-alpha?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.28.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-api-events@1.28.0-alpha?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.28.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.28.0-alpha?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.bytebuddy/byte-buddy@1.14.5?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+        "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar",
+        "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.96.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.96.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-handler@4.1.96.Final?type=jar",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-http@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/dev.failsafe/failsafe@3.3.2?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/dev.failsafe/failsafe@3.3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-os@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-os@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v115@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v116@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v117@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-http@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-manager@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-support@4.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.1.1?type=jar",
+        "pkg:maven/com.google.guava/guava@32.1.2-jre?type=jar",
+        "pkg:maven/net.bytebuddy/byte-buddy@1.14.5?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-java@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-core@7.14.0?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-core@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/ci-environment@9.2.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-expressions@16.1.2?type=jar",
+        "pkg:maven/io.cucumber/cucumber-gherkin-messages@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-gherkin@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-plugin@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/datatable@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/docstring@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/html-formatter@20.4.0?type=jar",
+        "pkg:maven/io.cucumber/junit-xml-formatter@0.2.0?type=jar",
+        "pkg:maven/io.cucumber/messages@22.0.0?type=jar",
+        "pkg:maven/io.cucumber/tag-expressions@5.0.6?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-gherkin@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-plugin@7.14.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-plugin@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-gherkin-messages@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-gherkin@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/gherkin@26.2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/gherkin@26.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/messages@22.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/messages@22.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/tag-expressions@5.0.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-expressions@16.1.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/datatable@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/docstring@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/html-formatter@20.4.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/messages@22.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/junit-xml-formatter@0.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/messages@22.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/ci-environment@9.2.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-testng@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-core@7.14.0?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+        "pkg:maven/org.testng/testng@7.8.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.testng/testng@7.8.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.beust/jcommander@1.82?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+        "pkg:maven/org.webjars/jquery@3.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.beust/jcommander@1.82?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.webjars/jquery@3.6.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.cucumber/cucumber-picocontainer@7.14.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-core@7.14.0?type=jar",
+        "pkg:maven/org.apiguardian/apiguardian-api@1.1.2?type=jar",
+        "pkg:maven/org.picocontainer/picocontainer@2.15?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.picocontainer/picocontainer@2.15?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/demoTestSuite/demo@0.0.1-SNAPSHOT?type=pom",
+      "dependsOn": [
+        "pkg:maven/io.cucumber/cucumber-java@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-picocontainer@7.14.0?type=jar",
+        "pkg:maven/io.cucumber/cucumber-testng@7.14.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.13.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-java@4.13.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar",
+        "pkg:maven/org.slf4j/slf4j-simple@2.0.9?type=jar",
+        "pkg:maven/org.testng/testng@7.8.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "dependsOn": []
+    }
+  ]
+}

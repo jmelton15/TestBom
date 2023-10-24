@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Read URLs File') {
+            steps {
+                script {
+                    def fileContent = readFile 'urls.txt'
+
+                    def lines = fileContent.readLines()
+
+                    lines.each { line -> 
+                        
+                    }
+                }
+            }
+        }
+    }
+}
