@@ -34,11 +34,11 @@ pipeline {
                         def lineParts = line.split('/')
                         def lastEle = lineParts.last()
                         def gitName = lastEle.substring(0,lastEle.length() - 4)
-                        def p = bat(script:'dir',returnStatus: true)
-                        def makeDirCmd = "mkdir /p Repos\\${gitName}\\"
-                        def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
+                        <!-- def p = bat(script:'dir',returnStatus: true) -->
+                        <!-- def makeDirCmd = "mkdir /p Repos\\${gitName}\\"
+                        def makeDirProcess = bat(script:makeDirCmd,returnStatus: true) -->
 
-                        if(makeDirProcess == 0) {
+                        <!-- if(makeDirProcess == 0) { -->
                             def gitCmd = "git -C Repos/${line} clone ${line}"
                             
                             def cloneProcess = bat(script:gitCmd,returnStatus: true)
@@ -65,9 +65,9 @@ pipeline {
                             } else {
                                 echo "Cloning repo ${line} failed with code: ${process}"
                             }
-                        } else {
+                        <!-- } else {
                             echo "There was a problem making the Repos folder. Failed with code: ${process}"
-                        }
+                        } -->
                     }
                 }
             }
