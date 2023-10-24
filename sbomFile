@@ -28,9 +28,12 @@ pipeline {
                         def makeRepoDirProcess = bat(script:makeRepoDir,returnStatus: true)
 
                         def lineParts = line.split('/')
-                        def lastEle = lineParts.last()
-                        def gitName = lastEle.substring(0,lastEle.length() - 4)
-
+                        def gitName = lineParts.last()
+                        if(gitName.contains('.')) {
+                            gitName = lastEle.substring(0,lastEle.length() - 4)
+                        }
+                        echo "Gitname: ${gitName}"
+                        
                         def gitCmd = "git -C Repos\\ clone ${line}"
                             
                         def cloneProcess = bat(script:gitCmd,returnStatus: true)
