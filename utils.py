@@ -30,14 +30,24 @@ def custom_rmtree(starting_dir):
             os.rmdir(os.path.join(root, name))
     os.rmdir(starting_dir)      
 
-def cleanup_files(config):
-    dirs = dict(config.items('Temp_Dirs'))
-    for directory in dirs:
+def cleanup_files(config,just_repos):
+    if just_repos:
+        directory = config.get("Temp_Dirs","repos_directory")
         try:
-            print("Cleaning Up Temp Directories and Files...")
-            custom_rmtree(dirs[directory])
+            print("Cleaning Up Cloned Repos...")
+            custom_rmtree(directory)
         except FileNotFoundError:
             print(f"Directory {directory} not found!")
         except Exception as e:
             print(f"Error removing directorie(s): {e}")
+    else:
+        dirs = dict(config.items('Temp_Dirs'))
+        for directory in dirs:
+            try:
+                print("Cleaning Up Temp Directories and Files...")
+                custom_rmtree(dirs[directory])
+            except FileNotFoundError:
+                print(f"Directory {directory} not found!")
+            except Exception as e:
+                print(f"Error removing directorie(s): {e}")
     

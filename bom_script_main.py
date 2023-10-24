@@ -17,7 +17,8 @@ def main():
     #this function creates all the bom.json files from the cloned repos and names them accordingly
     run_bom_creation()
     #this function can be used to remove all the temporarily created directories and files
-    # utils.cleanup_files(config)
+    # just_repos (second parameter) is defaulted to True to delete only the cloned repos after the Bom files are created
+    utils.cleanup_files(config,True)
 
 
 ###
