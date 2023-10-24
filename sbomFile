@@ -40,8 +40,9 @@ pipeline {
                         def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
                         if(cloneProcess == 0) {
+                            echo "HELLO LOSERS!"
                             def fileName = "BOM_FILES/sbom-${gitName}.json"
-                            echo "${filename}"
+                            
                             def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
                             def cleanUpCmd = "rmdir /s /q ${Repos}"
