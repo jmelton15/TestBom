@@ -7,11 +7,11 @@ pipeline {
                 bat 'python --version'
             }
         }
-        // stage('Run SBOM Python Script') {
-        //     steps {
-        //         echo 'Running SBOM Script....'
-        //         sh 'python bom_script_main.py'
-        //     }
-        // }
+        stage('Run SBOM Python Script') {
+            steps {
+                echo 'Running SBOM Script....'
+                sh 'python bom_script_main.py'
+            }
+        }
     }
 }
