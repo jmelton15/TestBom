@@ -29,13 +29,12 @@ pipeline {
 
                         def lineParts = line.split('/')
                         def gitName = lineParts.last()
-                        echo "Gitname: ${gitName}"
+
 
                         if(gitName.contains('.')) {
-                            gitName = lastEle.substring(0,lastEle.length() - 4)
+                            echo "Gitname: ${gitName}"
                         }
 
-                       
 
                         def gitCmd = "git -C Repos\\ clone ${line}"
                             
