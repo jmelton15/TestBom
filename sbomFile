@@ -38,11 +38,11 @@ pipeline {
                         if(process == 0) {
                             def fileName = "BOM_FILES/sbom-${line}.json"
 
-                            def makeDirCmd = "mkdir Repos/${line}""
+                            def makeDirCmd = "mkdir Repos/${line}"
 
                             def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                            def cleanUpCmd = "rmdir /s /q ${Repos}/${line}""
+                            def cleanUpCmd = "rmdir /s /q ${Repos}/${line}"
 
                             def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
 
