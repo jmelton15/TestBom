@@ -45,7 +45,7 @@ pipeline {
                             echo "HELLO LOSERS!"
                             def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
                             echo "HELLO LOSERS Again!"
-                            def cleanUpCmd = "rmdir /s /q Repos/"
+                            def cleanUpCmd = "rmdir /s /q Repos\\"
                             echo "HELLO LOSERS One more Time!"
                             def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
                             if(bomCreationProcess == 0) {
