@@ -36,7 +36,9 @@ pipeline {
                         def gitName = lastEle.substring(0,lastEle.length() - 4)
 
                         def makeDirPath = "Repos\\${gitName}"
-                        new File(makeDirPath).mkdirs()
+                        def makeDirsCmd = "mkdirs ${makeDirPath}"
+                        def makeDirProcess = bat(script:makeDirsCmd,returnStatus: true)
+
 
                         def gitCmd = "git -C Repos\\${gitName} clone ${line}"
                             
