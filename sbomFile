@@ -34,40 +34,33 @@ pipeline {
                         def lineParts = line.split('/')
                         def lastEle = lineParts.last()
                         def gitName = lastEle.substring(0,lastEle.length() - 4)
-                        <!-- def p = bat(script:'dir',returnStatus: true) -->
-                        <!-- def makeDirCmd = "mkdir /p Repos\\${gitName}\\"
-                        def makeDirProcess = bat(script:makeDirCmd,returnStatus: true) -->
-
-                        <!-- if(makeDirProcess == 0) { -->
-                            def gitCmd = "git -C Repos/${line} clone ${line}"
+                    
+                        def gitCmd = "git -C Repos/${gitName} clone ${line}"
                             
-                            def cloneProcess = bat(script:gitCmd,returnStatus: true)
+                        def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
-                            if(cloneProcess == 0) {
-                                def fileName = "BOM_FILES/sbom-${gitName}.json"
+                        if(cloneProcess == 0) {
+                            def fileName = "BOM_FILES/sbom-${gitName}.json"
 
-                                def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
+                            def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                                def cleanUpCmd = "rmdir /s /q ${Repos}\\${gitName}"
+                            def cleanUpCmd = "rmdir /s /q ${Repos}\\${gitName}"
                             
-                                def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
-                                if(bomCreationProcess == 0) {
-                                    def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
+                            def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
+                            if(bomCreationProcess == 0) {
+                                def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
 
-                                    if(cleanupProcess == 0) {
-                                        echo "Created Bom File for ${line} and cleaned up pulled repo"
-                                    } else {
-                                        echo "Cleaning up pulled repo failed with code: ${process}"
-                                    }
+                                if(cleanupProcess == 0) {
+                                    echo "Created Bom File for ${line} and cleaned up pulled repo"
                                 } else {
-                                    echo "Creating bom file for ${line} failed with code: ${process}"
+                                    echo "Cleaning up pulled repo failed with code: ${process}"
                                 }
                             } else {
-                                echo "Cloning repo ${line} failed with code: ${process}"
+                                echo "Creating bom file for ${line} failed with code: ${process}"
                             }
-                        <!-- } else {
-                            echo "There was a problem making the Repos folder. Failed with code: ${process}"
-                        } -->
+                        } else {
+                            echo "Cloning repo ${line} failed with code: ${process}"
+                        }
                     }
                 }
             }
