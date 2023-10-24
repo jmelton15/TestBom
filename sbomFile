@@ -2,7 +2,28 @@ pipeline {
     agent any
 
     stages {
-        stage('Read URLs File') {
+        stage("Setup Temp Folders") {
+            steps {
+                script {
+                    def cmd1 = 'mkdir BOM_FILES'
+                    def cmd2 = 'mkdir Repos'
+
+                    def process1 = bat(script:cmd1,returnStatus: true)
+                    if(process1 == 0) {
+                        echo "Created Bom File Folder"
+                    } else {
+                        echo "Creating Bom File Folder failed with code: ${process1}"
+                    }
+                    def process2 = bat(script:cmd2,returnStatus: true)
+                    if(process2 == 0) {
+                        echo "Created temp repo folder"
+                    } else {
+                        echo "Creating temp repo Folder failed with code: ${process2}"
+                    }
+                }
+            }
+        }
+        stage('Read URLs File And Create Boms') {
             steps {
                 script {
                     def fileContent = readFile 'urls.txt'
@@ -10,7 +31,35 @@ pipeline {
                     def lines = fileContent.readLines()
 
                     lines.each { line -> 
+                        def gitCmd = 'git clone ${line}'
                         
+                        def process = bat(script:gitCmd,returnStatus: true)
+
+                        if(process == 0) {
+                            def fileName = "BOM_FILES/sbom-${line}.json"
+
+                            def makeDirCmd = 'mkdir Repos/${line}'
+
+                            def makeBomCmd = 'cdxgen -o ${fileName} --spec-version 1.4'
+
+                            def cleanUpCmd = 'rmdir /s /q ${Repos}/${line}'    
+
+                            def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
+
+                            if(bomCreationProcess == 0) {
+                                def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
+
+                                if(cleanupProcess == 0) {
+                                    echo "Created Bom File for ${line} and cleaned up pulled repo"
+                                } else {
+                                    echo "Cleaning up pulled repo failed with code: ${process}"
+                                }
+                            } else {
+                                echo "Creating bom file for ${line} failed with code: ${process}"
+                            }
+                        } else {
+                            echo "Cloning repo ${line} failed with code: ${process}"
+                        }
                     }
                 }
             }
