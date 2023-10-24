@@ -33,9 +33,9 @@ pipeline {
                     lines.each { line -> 
                         def lineParts = line.split('/')
                         def lastEle = lineParts.last()
-                        echo "${lastEle.substring(0,lastEle.length() - 4)}"
+                        def gitName = lastEle.substring(0,lastEle.length() - 4)
 
-                        def makeDirCmd = "mkdir Repos/${gitNameParts.last()}"
+                        def makeDirCmd = "mkdir Repos/${gitName}"
                         def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
 
                         if(makeDirProcess == 0) {
@@ -44,11 +44,11 @@ pipeline {
                             def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
                             if(cloneProcess == 0) {
-                                def fileName = "BOM_FILES/sbom-${gitNameParts.first()}.json"
+                                def fileName = "BOM_FILES/sbom-${gitName}.json"
 
                                 def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                                def cleanUpCmd = "rmdir /s /q ${Repos}/${gitNameParts.first()}"
+                                def cleanUpCmd = "rmdir /s /q ${Repos}/${gitName}"
                             
                                 def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
                                 if(bomCreationProcess == 0) {
