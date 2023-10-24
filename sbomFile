@@ -44,18 +44,23 @@ pipeline {
 
                             def cleanUpCmd = "rmdir /s /q ${Repos}/${line}"
 
-                            def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
+                            def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
+                            if(makeDirProcess == 0) {
+                                def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
 
-                            if(bomCreationProcess == 0) {
-                                def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
+                                if(bomCreationProcess == 0) {
+                                    def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
 
-                                if(cleanupProcess == 0) {
-                                    echo "Created Bom File for ${line} and cleaned up pulled repo"
+                                    if(cleanupProcess == 0) {
+                                        echo "Created Bom File for ${line} and cleaned up pulled repo"
+                                    } else {
+                                        echo "Cleaning up pulled repo failed with code: ${process}"
+                                    }
                                 } else {
-                                    echo "Cleaning up pulled repo failed with code: ${process}"
+                                    echo "Creating bom file for ${line} failed with code: ${process}"
                                 }
                             } else {
-                                echo "Creating bom file for ${line} failed with code: ${process}"
+                                echo "There was a problem making the Repos folder. Failed with code: ${process}"
                             }
                         } else {
                             echo "Cloning repo ${line} failed with code: ${process}"
