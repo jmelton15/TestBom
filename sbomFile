@@ -31,23 +31,22 @@ pipeline {
                     def lines = fileContent.readLines()
 
                     lines.each { line -> 
-                        def gitCmd = "git clone ${line}"
-                        
-                        def process = bat(script:gitCmd,returnStatus: true)
+                        def makeDirCmd = "mkdir Repos/${line}"
+                        def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
 
-                        if(process == 0) {
-                            def fileName = "BOM_FILES/sbom-${line}.json"
+                        if(makeDirProcess == 0) {
+                            def gitCmd = "git -C Repos/${line} clone ${line}"
+                            
+                            def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
-                            def makeDirCmd = "mkdir Repos/${line}"
+                            if(cloneProcess == 0) {
+                                def fileName = "BOM_FILES/sbom-${line}.json"
 
-                            def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
+                                def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                            def cleanUpCmd = "rmdir /s /q ${Repos}/${line}"
-
-                            def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
-                            if(makeDirProcess == 0) {
+                                def cleanUpCmd = "rmdir /s /q ${Repos}/${line}"
+                            
                                 def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
-
                                 if(bomCreationProcess == 0) {
                                     def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
 
@@ -60,10 +59,10 @@ pipeline {
                                     echo "Creating bom file for ${line} failed with code: ${process}"
                                 }
                             } else {
-                                echo "There was a problem making the Repos folder. Failed with code: ${process}"
+                                echo "Cloning repo ${line} failed with code: ${process}"
                             }
                         } else {
-                            echo "Cloning repo ${line} failed with code: ${process}"
+                            echo "There was a problem making the Repos folder. Failed with code: ${process}"
                         }
                     }
                 }
