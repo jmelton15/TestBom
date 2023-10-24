@@ -2,11 +2,16 @@ pipeline {
     agent any
 
     stages {
-        stage('Run SBOM Python Script') {
+        stage('Python Version') {
             steps {
-                echo 'Running SBOM Script....'
-                sh 'python bom_script_main.py'
+                sh 'python --version'
             }
         }
+        // stage('Run SBOM Python Script') {
+        //     steps {
+        //         echo 'Running SBOM Script....'
+        //         sh 'python bom_script_main.py'
+        //     }
+        // }
     }
 }
