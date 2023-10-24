@@ -31,7 +31,9 @@ pipeline {
                     def lines = fileContent.readLines()
 
                     lines.each { line -> 
-                        def makeDirCmd = "mkdir Repos/${line}"
+                        def lineParts = line.split('/')
+                        
+                        def makeDirCmd = "mkdir Repos/${lineParts.last()}"
                         def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
 
                         if(makeDirProcess == 0) {
@@ -40,11 +42,11 @@ pipeline {
                             def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
                             if(cloneProcess == 0) {
-                                def fileName = "BOM_FILES/sbom-${line}.json"
+                                def fileName = "BOM_FILES/sbom-${lineParts.last()}.json"
 
                                 def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                                def cleanUpCmd = "rmdir /s /q ${Repos}/${line}"
+                                def cleanUpCmd = "rmdir /s /q ${Repos}/${lineParts.last()}"
                             
                                 def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
                                 if(bomCreationProcess == 0) {
