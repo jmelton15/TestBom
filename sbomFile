@@ -41,7 +41,8 @@ pipeline {
 
                         if(cloneProcess == 0) {
                             def fileName = "BOM_FILES/sbom-${gitName}.json"
-
+                            def p = bat(script:"cd BOM_FILES/")
+                            def p2 = bat(script:"dir")
                             def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
                             def cleanUpCmd = "rmdir /s /q ${Repos}"
