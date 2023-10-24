@@ -33,6 +33,7 @@ pipeline {
 
                         if(gitName.contains('.')) {
                             echo "Gitname: ${gitName}"
+                            gitName = gitName.substring(0,gitName.length() - 4)
                         }
 
 
