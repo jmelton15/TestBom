@@ -10,7 +10,7 @@ pipeline {
         stage('Run SBOM Python Script') {
             steps {
                 echo 'Running SBOM Script....'
-                sh 'python bom_script_main.py'
+                bat 'python bom_script_main.py'
             }
         }
     }
