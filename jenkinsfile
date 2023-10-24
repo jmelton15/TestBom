@@ -2,21 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage("Build and Run") {
-            parallel {
-                stage('RunScript_1') {
-                    steps {
-                        echo 'Running cdx server script....'
-                        bat 'cmd.exe'
-                        bat 'python python2.py'
-                    }
-                }
-                stage('RunScript_2') {
-                    steps {
-                        echo 'Running SBOM Script....'
-                        sh 'python sbom_script.py'
-                    }
-                }
+        stage('Run SBOM Python Script') {
+            steps {
+                echo 'Running SBOM Script....'
+                sh 'python bom_script_main.py'
             }
         }
     }
