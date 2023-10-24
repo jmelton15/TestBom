@@ -35,7 +35,7 @@ pipeline {
                         def lastEle = lineParts.last()
                         def gitName = lastEle.substring(0,lastEle.length() - 4)
                     
-                        def gitCmd = "git -C Repos/${gitName} clone ${line}"
+                        def gitCmd = "git -C Repos/ clone ${line}"
                             
                         def cloneProcess = bat(script:gitCmd,returnStatus: true)
 
@@ -44,7 +44,7 @@ pipeline {
 
                             def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
 
-                            def cleanUpCmd = "rmdir /s /q ${Repos}\\${gitName}"
+                            def cleanUpCmd = "rmdir /s /q ${Repos}"
                             
                             def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
                             if(bomCreationProcess == 0) {
