@@ -33,10 +33,10 @@ pipeline {
                     lines.each { line -> 
                         def lineParts = line.split('/')
                         def lastEle = lineParts.last()
+                        echo "${lastEle}"
                         def gitNameParts = lastEle.split('.')
-                        echo "${gitNameParts}"
 
-                        def makeDirCmd = "mkdir Repos/${gitNameParts.first()}"
+                        def makeDirCmd = "mkdir Repos/${gitNameParts.last()}"
                         def makeDirProcess = bat(script:makeDirCmd,returnStatus: true)
 
                         if(makeDirProcess == 0) {
