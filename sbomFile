@@ -2,6 +2,7 @@
 
 def parseTextLine(line) {
     def lineParts = line.split('|')
+    echo "Line parts: ${lineParts}"
     def gitUrl = lineParts[0].trim()
     echo "GIT URL -> -> ${gitUrl}"
 
