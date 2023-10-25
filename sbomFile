@@ -55,7 +55,7 @@ pipeline {
                             def branch = parsedLineText[1]
                             def gitName = parsedLineText[2]
 
-                            git branch: "${branch}", url:"${gitUrl}"
+                            echo "BRANCH IS -> --> ---> ${branch}"
 
                             def gitCmd = "git -C Repos\\ clone ${gitUrl}"
                                 
