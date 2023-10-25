@@ -31,3 +31,61 @@ def makeDirCmd = "mkdir /p Repos\\${gitName}\\"
                         } else {
                             echo "There was a problem making the Repos folder. Failed with code: ${process}"
                         }
+
+
+stage('Read URLs File And Create Boms') {
+            steps {
+                script {
+                    def fileContent = readFile 'urls.txt'
+
+                    def lines = fileContent.readLines()
+
+                    lines.each { line -> 
+                        if(!line.isBlank()) {
+                            def makeRepoDir = 'mkdir Repos'
+                            def makeRepoDirProcess = bat(script:makeRepoDir,returnStatus: true)
+
+                            def lineParts = line.split('/')
+                            def gitName = lineParts.last()
+
+
+                            if(gitName.contains('.')) {
+                                echo "Gitname: ${gitName}"
+                                gitName = gitName.substring(0,gitName.length() - 4)
+                            }
+
+
+                            def gitCmd = "git -C Repos\\ clone ${line}"
+                                
+                            def cloneProcess = bat(script:gitCmd,returnStatus: true)
+
+                            if(cloneProcess == 0) {
+                                def fileName = "BOM_FILES/sbom-${gitName}.json"
+
+                                def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
+
+                                def cleanUpCmd = "rmdir /s /q Repos\\"
+
+                                def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
+                                if(bomCreationProcess == 0) {
+                                    def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
+
+                                    if(cleanupProcess == 0) {
+                                        echo "Created Bom File for ${line} and cleaned up pulled repo"
+                                    } else {
+                                        echo "Cleaning up pulled repo failed with code: ${process}"
+                                    }
+                                } else {
+                                    echo "Creating bom file for ${line} failed with code: ${process}"
+                                }
+                            } else {
+                                echo "Cloning repo ${line} failed with code: ${process}"
+                            }
+                        } else {
+                            echo "Line is Blank!!!"
+                        }
+                        
+                    }
+                }
+            }
+        }

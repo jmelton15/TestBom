@@ -1,4 +1,7 @@
+@Grab(group='org.apache.poi', module='poi', version='4.1.2')
+@Grab(group='org.apache.poi', module='poi-ooxml', version='4.1.2')
 
+import org.apache.poi.ss.usermodel.*
 
 pipeline {
     agent any
@@ -18,61 +21,26 @@ pipeline {
                 }
             }
         }
-        stage('Read URLs File And Create Boms') {
+        stage("Read xlsx file") {
             steps {
                 script {
-                    def fileContent = readFile 'urls.txt'
+                    def excelFile = 'test.xlsx'
 
-                    def lines = fileContent.readLines()
+                    FileInputStream inputStream = new FileInputStream(excelFile)
+                    Workbook workbook = WorkbookFactory.create(inputStream)
+                    Sheet sheet = workbook.getSheetAt(0)
+                    def urlColumn = 1
+                    def branchColumn = 2
 
-                    lines.each { line -> 
-                        if(!line.isBlank()) {
-                            def makeRepoDir = 'mkdir Repos'
-                            def makeRepoDirProcess = bat(script:makeRepoDir,returnStatus: true)
-
-                            def lineParts = line.split('/')
-                            def gitName = lineParts.last()
-
-
-                            if(gitName.contains('.')) {
-                                echo "Gitname: ${gitName}"
-                                gitName = gitName.substring(0,gitName.length() - 4)
-                            }
-
-
-                            def gitCmd = "git -C Repos\\ clone ${line}"
-                                
-                            def cloneProcess = bat(script:gitCmd,returnStatus: true)
-
-                            if(cloneProcess == 0) {
-                                def fileName = "BOM_FILES/sbom-${gitName}.json"
-
-                                def makeBomCmd = "cdxgen -o ${fileName} --spec-version 1.4"
-
-                                def cleanUpCmd = "rmdir /s /q Repos\\"
-
-                                def bomCreationProcess = bat(script:makeBomCmd,returnStatus: true)
-                                if(bomCreationProcess == 0) {
-                                    def cleanupProcess = bat(script:cleanUpCmd,returnStatus: true)
-
-                                    if(cleanupProcess == 0) {
-                                        echo "Created Bom File for ${line} and cleaned up pulled repo"
-                                    } else {
-                                        echo "Cleaning up pulled repo failed with code: ${process}"
-                                    }
-                                } else {
-                                    echo "Creating bom file for ${line} failed with code: ${process}"
-                                }
-                            } else {
-                                echo "Cloning repo ${line} failed with code: ${process}"
-                            }
-                        } else {
-                            echo "Line is Blank!!!"
+                    for(Row row : sheet) {
+                        Cell urlCell = row.getCell(urlColumn)
+                        if(cell != null) {
+                            echo "Cell Value: ${urlCell}"
                         }
-                        
                     }
                 }
             }
         }
+        
     }
 }
