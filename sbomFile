@@ -1,7 +1,23 @@
-@Grab(group='org.apache.poi', module='poi', version='4.1.2')
-@Grab(group='org.apache.poi', module='poi-ooxml', version='4.1.2')
 
-import org.apache.poi.ss.usermodel.*
+
+def parseTextLine(line) {
+    def lineParts = line.split('|')
+    def gitUrl = lineParts[0].trim()
+    echo "GIT URL -> -> ${gitUrl}"
+
+    def branch = lineParts.last().trim()
+    echo "Branch -> -> ${branch}"
+
+}
+
+def readFromTextFile(txtFile) {
+    def fileContent = readFile txtFile
+    def lines = fileContent.readLines()
+    lines.each { line -> 
+        echo "${line}"
+    }
+}
+
 
 pipeline {
     agent any
@@ -21,22 +37,20 @@ pipeline {
                 }
             }
         }
-        stage("Read xlsx file") {
+        stage('Read URLs File And Create Boms') {
             steps {
                 script {
-                    def excelFile = 'test.xlsx'
+                    def fileContent = readFile 'urls.txt'
 
-                    FileInputStream inputStream = new FileInputStream(excelFile)
-                    Workbook workbook = WorkbookFactory.create(inputStream)
-                    Sheet sheet = workbook.getSheetAt(0)
-                    def urlColumn = 1
-                    def branchColumn = 2
+                    def lines = fileContent.readLines()
 
-                    for(Row row : sheet) {
-                        Cell urlCell = row.getCell(urlColumn)
-                        if(cell != null) {
-                            echo "Cell Value: ${urlCell}"
+                    lines.each { line -> 
+                        if(!line.isBlank()) {
+                            parseTextLine(line)
+                        } else {
+                            echo "Line is Blank!!!"
                         }
+                        
                     }
                 }
             }

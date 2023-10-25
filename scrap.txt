@@ -32,6 +32,29 @@ def makeDirCmd = "mkdir /p Repos\\${gitName}\\"
                             echo "There was a problem making the Repos folder. Failed with code: ${process}"
                         }
 
+stage("Read xlsx file") {
+            steps {
+                script {
+                    def excelFile = 'test.xlsx'
+
+                    FileInputStream inputStream = new FileInputStream(excelFile)
+                    Workbook workbook = WorkbookFactory.create(inputStream)
+                    Sheet sheet = workbook.getSheetAt(0)
+                    def urlColumn = 1
+                    def branchColumn = 2
+
+                    for(Row row : sheet) {
+                        Cell urlCell = row.getCell(urlColumn)
+                        if(cell != null) {
+                            echo "Cell Value: ${urlCell}"
+                        }
+                    }
+                }
+            }
+        }
+
+
+
 
 stage('Read URLs File And Create Boms') {
             steps {
