@@ -1,4 +1,3 @@
-@Library('groovy@develop') _
 
 
 pipeline {
