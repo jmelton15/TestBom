@@ -55,6 +55,8 @@ pipeline {
                             def branch = parsedLineText[1]
                             def gitName = parsedLineText[2]
 
+                            git branch: "${branch}", url:"${gitUrl}"
+
                             def gitCmd = "git -C Repos\\ clone ${gitUrl}"
                                 
                             def cloneProcess = bat(script:gitCmd,returnStatus: true)
